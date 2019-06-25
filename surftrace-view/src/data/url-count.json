@@ -1,15 +1,15 @@
 [
   {
-    "url": "/rhn/ssm/index.do",
-    "count": 411
+    "url": "/rhn/systems/details/Overview.do",
+    "count": 429
   },
   {
-    "url": "/rhn/systems/details/Overview.do",
-    "count": 402
+    "url": "/rhn/ssm/index.do",
+    "count": 412
   },
   {
     "url": "/rhn/systems/SystemList.do",
-    "count": 257
+    "count": 283
   },
   {
     "url": "/rhn/ssm/PackageUpgrade.do",
@@ -17,23 +17,23 @@
   },
   {
     "url": "/rhn/systems/details/packages/Packages.do",
-    "count": 163
-  },
-  {
-    "url": "/rhn/YourRhn.do",
-    "count": 135
+    "count": 202
   },
   {
     "url": "/rhn/systems/details/ErrataList.do",
-    "count": 133
+    "count": 155
+  },
+  {
+    "url": "/rhn/YourRhn.do",
+    "count": 141
   },
   {
     "url": "/rhn/systems/ssm/ListSystems.do",
-    "count": 130
+    "count": 131
   },
   {
     "url": "/rhn/schedule/InProgressSystems.do",
-    "count": 120
+    "count": 121
   },
   {
     "url": "/rhn/schedule/PendingActions.do",
@@ -45,7 +45,7 @@
   },
   {
     "url": "/rhn/systems/Search.do",
-    "count": 105
+    "count": 106
   },
   {
     "url": "/rhn/systems/details/SPMigration.do",
@@ -61,7 +61,7 @@
   },
   {
     "url": "/rhn/schedule/ActionDetails.do",
-    "count": 78
+    "count": 80
   },
   {
     "url": "/rhn/schedule/FailedSystems.do",
@@ -69,31 +69,35 @@
   },
   {
     "url": "/rhn/systems/Overview.do",
-    "count": 68
+    "count": 69
   },
   {
     "url": "/rhn/groups/ListRemoveSystems.do",
-    "count": 63
+    "count": 68
   },
   {
     "url": "/rhn/systems/details/history/Event.do",
+    "count": 65
+  },
+  {
+    "url": "/rhn/groups/GroupDetail.do",
+    "count": 60
+  },
+  {
+    "url": "/rhn/systems/SystemGroupList.do",
     "count": 57
+  },
+  {
+    "url": "/rhn/schedule/CompletedSystems.do",
+    "count": 55
   },
   {
     "url": "/rhn/systems/ssm/misc/RebootSystemConfirm.do",
     "count": 55
   },
   {
-    "url": "/rhn/schedule/CompletedSystems.do",
-    "count": 54
-  },
-  {
-    "url": "/rhn/groups/GroupDetail.do",
-    "count": 53
-  },
-  {
-    "url": "/rhn/systems/SystemGroupList.do",
-    "count": 52
+    "url": "/rhn/systems/details/history/Pending.do",
+    "count": 47
   },
   {
     "url": "/rhn/manager/systems/details/highstate",
@@ -108,19 +112,15 @@
     "count": 44
   },
   {
+    "url": "/rhn/systems/Inactive.do",
+    "count": 41
+  },
+  {
     "url": "/rhn/channel/ssm/ChannelSubscriptions.do",
     "count": 40
   },
   {
-    "url": "/rhn/systems/Inactive.do",
-    "count": 40
-  },
-  {
-    "url": "/rhn/systems/details/packages/Packages.do",
-    "count": 39
-  },
-  {
-    "url": "/rhn/systems/details/history/Pending.do",
+    "url": "/rhn/systems/details/history/History.do",
     "count": 38
   },
   {
@@ -152,32 +152,24 @@
     "count": 32
   },
   {
-    "url": "/rhn/systems/ssm/DeleteConfirm.do",
-    "count": 31
+    "url": "/rhn/errata/details/Details.do",
+    "count": 32
   },
   {
-    "url": "/rhn/systems/details/history/History.do",
-    "count": 29
+    "url": "/rhn/systems/ssm/DeleteConfirm.do",
+    "count": 31
   },
   {
     "url": "/rhn/channels/ChannelSubscribers.do",
     "count": 28
   },
   {
-    "url": "/rhn/systems/details/Overview.do",
-    "count": 27
-  },
-  {
     "url": "/rhn/software/channels/Vendor.do",
     "count": 26
   },
   {
-    "url": "/rhn/systems/SystemList.do",
+    "url": "/rhn/activationkeys/Edit.do",
     "count": 26
-  },
-  {
-    "url": "/rhn/channels/ChannelDetail.do",
-    "count": 25
   },
   {
     "url": "/rhn/ssm/Packages.do",
@@ -188,23 +180,19 @@
     "count": 25
   },
   {
-    "url": "/rhn/errata/details/Details.do",
-    "count": 24
-  },
-  {
-    "url": "/rhn/activationkeys/Edit.do",
-    "count": 24
+    "url": "/rhn/channels/ChannelDetail.do",
+    "count": 25
   },
   {
     "url": "/rhn/channels/software/Search.do",
-    "count": 23
+    "count": 25
+  },
+  {
+    "url": "/rhn/systems/details/SystemHardware.do",
+    "count": 24
   },
   {
     "url": "/rhn/systems/details/DeleteConfirm.do",
-    "count": 22
-  },
-  {
-    "url": "/rhn/systems/details/ErrataList.do",
     "count": 22
   },
   {
@@ -212,59 +200,59 @@
     "count": 21
   },
   {
+    "url": "/rhn/activationkeys/List.do",
+    "count": 20
+  },
+  {
     "url": "/rhn/ssm/PackageList.do",
     "count": 19
   },
   {
-    "url": "/rhn/activationkeys/List.do",
-    "count": 18
+    "url": "/rhn/systems/details/packages/PackageList.do",
+    "count": 19
   },
   {
     "url": "/rhn/manager/admin/setup/products",
     "count": 17
   },
   {
+    "url": "/rhn/errata/details/Packages.do",
+    "count": 17
+  },
+  {
     "url": "/rhn/systems/details/packages/InstallPackages.do",
+    "count": 16
+  },
+  {
+    "url": "/rhn/systems/details/ErrataConfirm.do",
     "count": 15
+  },
+  {
+    "url": "/rhn/systems/Ungrouped.do",
+    "count": 14
   },
   {
     "url": "/rhn/systems/RequiringReboot.do",
     "count": 14
   },
   {
-    "url": "/rhn/systems/details/SystemHardware.do",
-    "count": 14
-  },
-  {
-    "url": "/rhn/systems/details/packages/PackageList.do",
-    "count": 14
-  },
-  {
-    "url": "/rhn/errata/details/Packages.do",
-    "count": 13
-  },
-  {
-    "url": "/rhn/systems/Ungrouped.do",
-    "count": 12
-  },
-  {
-    "url": "/rhn/systems/details/ErrataConfirm.do",
-    "count": 12
-  },
-  {
     "url": "/rhn/ssm/ViewCompletedLog.do",
     "count": 12
   },
   {
-    "url": "/rhn/activationkeys/systems/List.do",
-    "count": 11
+    "url": "/rhn/systems/details/Edit.do",
+    "count": 12
   },
   {
-    "url": "/rhn/systems/details/Edit.do",
-    "count": 11
+    "url": "/rhn/activationkeys/systems/List.do",
+    "count": 12
   },
   {
     "url": "/rhn/admin/setup/ProxySettings.do",
+    "count": 11
+  },
+  {
+    "url": "/rhn/software/packages/NameOverview.do",
     "count": 11
   },
   {
@@ -272,7 +260,7 @@
     "count": 10
   },
   {
-    "url": "/rhn/systems/details/SystemHardware.do",
+    "url": "/rhn/channels/ChannelPackages.do",
     "count": 10
   },
   {
@@ -280,12 +268,12 @@
     "count": 10
   },
   {
-    "url": "/rhn/channels/ChannelPackages.do",
-    "count": 10
+    "url": "/rhn/software/channels/All.do",
+    "count": 9
   },
   {
-    "url": "/rhn/software/packages/NameOverview.do",
-    "count": 10
+    "url": "/rhn/ssm/PackageInstall.do",
+    "count": 9
   },
   {
     "url": "/rhn/groups/ListErrata.do",
@@ -293,10 +281,6 @@
   },
   {
     "url": "/rhn/admin/setup/MirrorCredentials.do",
-    "count": 9
-  },
-  {
-    "url": "/rhn/ssm/PackageInstall.do",
     "count": 9
   },
   {
@@ -308,19 +292,7 @@
     "count": 9
   },
   {
-    "url": "/rhn/systems/details/history/History.do",
-    "count": 9
-  },
-  {
-    "url": "/rhn/systems/details/history/Pending.do",
-    "count": 9
-  },
-  {
-    "url": "/rhn/software/channels/All.do",
-    "count": 9
-  },
-  {
-    "url": "/rhn/errata/details/Details.do",
+    "url": "/rhn/systems/details/history/FailEventConfirmation.do",
     "count": 8
   },
   {
@@ -332,15 +304,11 @@
     "count": 8
   },
   {
-    "url": "/rhn/systems/details/history/Event.do",
-    "count": 8
-  },
-  {
-    "url": "/rhn/ssm/PackageRemove.do",
+    "url": "/rhn/users/UserDetails.do",
     "count": 7
   },
   {
-    "url": "/rhn/channels/ChannelErrata.do",
+    "url": "/rhn/errata/details/SystemsAffected.do",
     "count": 7
   },
   {
@@ -348,7 +316,7 @@
     "count": 7
   },
   {
-    "url": "/rhn/groups/GroupDetail.do",
+    "url": "/rhn/channels/ChannelErrata.do",
     "count": 7
   },
   {
@@ -356,12 +324,16 @@
     "count": 7
   },
   {
-    "url": "/rhn/users/UserDetails.do",
+    "url": "/rhn/ssm/PackageRemove.do",
     "count": 7
   },
   {
-    "url": "/rhn/errata/details/SystemsAffected.do",
-    "count": 7
+    "url": "/rhn/account/UserDetails.do",
+    "count": 6
+  },
+  {
+    "url": "/rhn/schedule/PendingActionsDeleteConfirm.do",
+    "count": 6
   },
   {
     "url": "/rhn/systems/details/packages/InstallConfirm.do",
@@ -372,35 +344,7 @@
     "count": 6
   },
   {
-    "url": "/rhn/systems/details/history/FailEventConfirmation.do",
-    "count": 6
-  },
-  {
-    "url": "/rhn/account/UserDetails.do",
-    "count": 6
-  },
-  {
-    "url": "/rhn/YourRhn.do",
-    "count": 6
-  },
-  {
-    "url": "/rhn/schedule/PendingActionsDeleteConfirm.do",
-    "count": 6
-  },
-  {
-    "url": "/rhn/groups/ListRemoveSystems.do",
-    "count": 5
-  },
-  {
-    "url": "/rhn/systems/details/packages/PackageList.do",
-    "count": 5
-  },
-  {
-    "url": "/rhn/channels/manage/Manage.do",
-    "count": 5
-  },
-  {
-    "url": "/rhn/schedule/PackageList.do",
+    "url": "/rhn/channels/manage/Delete.do",
     "count": 5
   },
   {
@@ -408,23 +352,23 @@
     "count": 5
   },
   {
-    "url": "/rhn/systems/SystemGroupList.do",
+    "url": "/rhn/schedule/PackageList.do",
     "count": 5
   },
   {
-    "url": "/rhn/channels/manage/Delete.do",
+    "url": "/rhn/channels/manage/Manage.do",
     "count": 5
-  },
-  {
-    "url": "/rhn/channels/manage/repos/RepoList.do",
-    "count": 4
-  },
-  {
-    "url": "/rhn/errata/details/Packages.do",
-    "count": 4
   },
   {
     "url": "/rhn/channels/manage/Edit.do",
+    "count": 4
+  },
+  {
+    "url": "/rhn/systems/details/audit/ListScap.do",
+    "count": 4
+  },
+  {
+    "url": "/rhn/channels/manage/repos/RepoEdit.do",
     "count": 4
   },
   {
@@ -432,7 +376,15 @@
     "count": 4
   },
   {
-    "url": "/rhn/systems/details/groups/ListRemove.do",
+    "url": "/rhn/users/ActiveList.do",
+    "count": 4
+  },
+  {
+    "url": "/rhn/systems/ssm/provisioning/PowerManagementConfiguration.do",
+    "count": 4
+  },
+  {
+    "url": "/rhn/activationkeys/groups/List.do",
     "count": 4
   },
   {
@@ -444,19 +396,11 @@
     "count": 4
   },
   {
-    "url": "/rhn/activationkeys/groups/List.do",
+    "url": "/rhn/systems/details/groups/ListRemove.do",
     "count": 4
   },
   {
-    "url": "/rhn/systems/details/packages/profiles/SyncSystems.do",
-    "count": 4
-  },
-  {
-    "url": "/rhn/users/ActiveList.do",
-    "count": 4
-  },
-  {
-    "url": "/rhn/channels/manage/repos/RepoEdit.do",
+    "url": "/rhn/channels/manage/repos/RepoList.do",
     "count": 4
   },
   {
@@ -464,35 +408,11 @@
     "count": 4
   },
   {
-    "url": "/rhn/systems/ssm/provisioning/PowerManagementConfiguration.do",
+    "url": "/rhn/systems/details/packages/profiles/SyncSystems.do",
     "count": 4
   },
   {
-    "url": "/rhn/systems/OutOfDate.do",
-    "count": 3
-  },
-  {
-    "url": "/rhn/systems/details/packages/profiles/MissingPackageSubmit.do",
-    "count": 3
-  },
-  {
-    "url": "/rhn/software/packages/TargetSystems.do",
-    "count": 3
-  },
-  {
-    "url": "/rhn/channels/Managers.do",
-    "count": 3
-  },
-  {
     "url": "/rhn/users/DeleteUser.do",
-    "count": 3
-  },
-  {
-    "url": "/rhn/systems/details/configuration/Overview.do",
-    "count": 3
-  },
-  {
-    "url": "/rhn/systems/details/audit/ListScap.do",
     "count": 3
   },
   {
@@ -500,19 +420,7 @@
     "count": 3
   },
   {
-    "url": "/rhn/systems/details/ErrataConfirm.do",
-    "count": 3
-  },
-  {
-    "url": "/rhn/admin/multiorg/Users.do",
-    "count": 3
-  },
-  {
-    "url": "/rhn/groups/AdminList.do",
-    "count": 3
-  },
-  {
-    "url": "/rhn/systems/details/packages/profiles/MissingPackages.do",
+    "url": "/rhn/systems/OutOfDate.do",
     "count": 3
   },
   {
@@ -520,7 +428,23 @@
     "count": 3
   },
   {
+    "url": "/rhn/channels/Managers.do",
+    "count": 3
+  },
+  {
+    "url": "/rhn/systems/details/configuration/Overview.do",
+    "count": 3
+  },
+  {
+    "url": "/rhn/groups/AdminList.do",
+    "count": 3
+  },
+  {
     "url": "/rhn/systems/details/history/PendingDelete.do",
+    "count": 3
+  },
+  {
+    "url": "/rhn/software/packages/ChangeLog.do",
     "count": 3
   },
   {
@@ -528,39 +452,31 @@
     "count": 3
   },
   {
-    "url": "/rhn/admin/config/BootstrapConfig.do",
+    "url": "/rhn/admin/multiorg/Users.do",
+    "count": 3
+  },
+  {
+    "url": "/rhn/software/packages/TargetSystems.do",
+    "count": 3
+  },
+  {
+    "url": "/rhn/systems/details/packages/profiles/MissingPackageSubmit.do",
+    "count": 3
+  },
+  {
+    "url": "/rhn/systems/details/packages/profiles/MissingPackages.do",
+    "count": 3
+  },
+  {
+    "url": "/rhn/admin/config/BootstrapSystems.do",
     "count": 2
   },
   {
-    "url": "/rhn/errata/RelevantErrata.do",
+    "url": "/rhn/admin/multiorg/Organizations.do",
     "count": 2
   },
   {
-    "url": "/rhn/software/manage/packages/ConfirmPackageRemove.do",
-    "count": 2
-  },
-  {
-    "url": "/rhn/users/UserList.do",
-    "count": 2
-  },
-  {
-    "url": "/rhn/manager/cm/imagestores/create",
-    "count": 2
-  },
-  {
-    "url": "/rhn/systems/details/history/FailEventConfirmation.do",
-    "count": 2
-  },
-  {
-    "url": "/rhn/manager/cm/images",
-    "count": 2
-  },
-  {
-    "url": "/rhn/channels/software/Search.do",
-    "count": 2
-  },
-  {
-    "url": "/rhn/activationkeys/Edit.do",
+    "url": "/rhn/YourRhn.do#",
     "count": 2
   },
   {
@@ -568,7 +484,7 @@
     "count": 2
   },
   {
-    "url": "/rhn/activationkeys/List.do",
+    "url": "/rhn/systems/details/kickstart/PowerManagement.do",
     "count": 2
   },
   {
@@ -576,15 +492,15 @@
     "count": 2
   },
   {
+    "url": "/rhn/manager/cm/imagestores/create",
+    "count": 2
+  },
+  {
     "url": "/rhn/admin/Catalina.do",
     "count": 2
   },
   {
-    "url": "/rhn/errata/AllErrata.do",
-    "count": 2
-  },
-  {
-    "url": "/rhn/admin/multiorg/Organizations.do",
+    "url": "/rhn/admin/config/GeneralConfig.do",
     "count": 2
   },
   {
@@ -596,27 +512,27 @@
     "count": 2
   },
   {
+    "url": "/rhn/errata/AllErrata.do",
+    "count": 2
+  },
+  {
     "url": "/rhn/systems/ssm/ErrataSystemsAffected.do",
     "count": 2
   },
   {
-    "url": "/rhn/software/packages/ChangeLog.do",
+    "url": "/rhn/errata/RelevantErrata.do",
     "count": 2
   },
   {
-    "url": "/rhn/YourRhn.do#",
+    "url": "/rhn/users/UserList.do",
     "count": 2
   },
   {
-    "url": "/rhn/systems/Ungrouped.do",
+    "url": "/rhn/admin/config/BootstrapConfig.do",
     "count": 2
   },
   {
-    "url": "/rhn/schedule/ActionDetails.do",
-    "count": 2
-  },
-  {
-    "url": "/rhn/systems/details/kickstart/PowerManagement.do",
+    "url": "/rhn/software/manage/packages/ConfirmPackageRemove.do",
     "count": 2
   },
   {
@@ -624,48 +540,12 @@
     "count": 2
   },
   {
-    "url": "/rhn/admin/config/BootstrapSystems.do",
-    "count": 2
-  },
-  {
     "url": "/rhn/admin/config/Cobbler.do",
     "count": 2
   },
   {
-    "url": "/rhn/admin/config/GeneralConfig.do",
+    "url": "/rhn/manager/cm/images",
     "count": 2
-  },
-  {
-    "url": "/rhn/systems/details/audit/ScheduleXccdf.do",
-    "count": 1
-  },
-  {
-    "url": "/pub/repositories/sle/12/4/",
-    "count": 1
-  },
-  {
-    "url": "/rhn/users/DeleteUserSubmit.do",
-    "count": 1
-  },
-  {
-    "url": "/rhn/systems/VirtualList.do",
-    "count": 1
-  },
-  {
-    "url": "/rhn/admin/config/Orgs.do",
-    "count": 1
-  },
-  {
-    "url": "/rhn/admin/config/Restart.do",
-    "count": 1
-  },
-  {
-    "url": "/rhn/admin/multiorg/OrgDetails.do",
-    "count": 1
-  },
-  {
-    "url": "/rhn/manager/multiorg/details/custom",
-    "count": 1
   },
   {
     "url": "/rhn/admin/multiorg/OrgUsers.do",
@@ -684,15 +564,15 @@
     "count": 1
   },
   {
-    "url": "/rhn/groups/SystemsAffected.do",
+    "url": "/pub/repositories/sle/12/4/bootstrap/repodata/",
     "count": 1
   },
   {
-    "url": "/rhn/systems/Inactive.do",
+    "url": "/rhn/systems/VirtualList.do",
     "count": 1
   },
   {
-    "url": "/rhn/multiorg/OrgConfigDetails.do",
+    "url": "/pub/repositories/sle/12/4/bootstrap/repodata/repomd.xml",
     "count": 1
   },
   {
@@ -700,11 +580,15 @@
     "count": 1
   },
   {
-    "url": "/rhn/manager/systems/details/formulas",
+    "url": "/rhn/systems/details/packages/profiles/SyncSystemsSubmit.do",
     "count": 1
   },
   {
-    "url": "/rhn/systems/Overview.do",
+    "url": "/rhn/multiorg/OrgConfigDetails.do",
+    "count": 1
+  },
+  {
+    "url": "/rhn/manager/cm/import",
     "count": 1
   },
   {
@@ -716,11 +600,7 @@
     "count": 1
   },
   {
-    "url": "/rhn/activationkeys/systems/List.do",
-    "count": 1
-  },
-  {
-    "url": "/rhn/ssm/index.do",
+    "url": "/rhn/manager/cm/imagestores",
     "count": 1
   },
   {
@@ -732,7 +612,7 @@
     "count": 1
   },
   {
-    "url": "/pub/repositories/sle/12/4/bootstrap/repodata/",
+    "url": "/rhn/systems/details/ListCustomData.do",
     "count": 1
   },
   {
@@ -740,19 +620,15 @@
     "count": 1
   },
   {
-    "url": "/rhn/software/packages/NameOverview.do",
+    "url": "/rhn/manager/systems/details/formulas",
     "count": 1
   },
   {
-    "url": "/rhn/systems/details/packages/InstallPackages.do",
+    "url": "/rhn/users/DeleteUserSubmit.do",
     "count": 1
   },
   {
-    "url": "/rhn/systems/Search.do",
-    "count": 1
-  },
-  {
-    "url": "/pub/repositories/sle/12/4/bootstrap/",
+    "url": "/pub/repositories/sle/12/4/",
     "count": 1
   },
   {
@@ -760,7 +636,7 @@
     "count": 1
   },
   {
-    "url": "/rhn/manager/cm/import",
+    "url": "/rhn/admin/config/Orgs.do",
     "count": 1
   },
   {
@@ -768,23 +644,11 @@
     "count": 1
   },
   {
-    "url": "/pub/repositories/sle/12/4/bootstrap/repodata/repomd.xml",
+    "url": "/rhn/systems/details/audit/ScheduleXccdf.do",
     "count": 1
   },
   {
-    "url": "/rhn/manager/cm/build",
-    "count": 1
-  },
-  {
-    "url": "/rhn/manager/cm/imagestores",
-    "count": 1
-  },
-  {
-    "url": "/rhn/systems/details/ListCustomData.do",
-    "count": 1
-  },
-  {
-    "url": "/rhn/systems/details/audit/ListScap.do",
+    "url": "/pub/repositories/sle/12/4/bootstrap/",
     "count": 1
   },
   {
@@ -796,11 +660,7 @@
     "count": 1
   },
   {
-    "url": "/rhn/software/packages/ChangeLog.do",
-    "count": 1
-  },
-  {
-    "url": "/rhn/schedule/CompletedSystems.do",
+    "url": "/rhn/groups/SystemsAffected.do",
     "count": 1
   },
   {
@@ -816,19 +676,19 @@
     "count": 1
   },
   {
-    "url": "/rhn/systems/details/Edit.do",
+    "url": "/rhn/admin/config/Restart.do",
     "count": 1
   },
   {
-    "url": "/rhn/systems/ssm/ListSystems.do",
+    "url": "/rhn/admin/multiorg/OrgDetails.do",
     "count": 1
   },
   {
-    "url": "/rhn/schedule/InProgressSystems.do",
+    "url": "/rhn/manager/multiorg/details/custom",
     "count": 1
   },
   {
-    "url": "/rhn/systems/details/packages/profiles/SyncSystemsSubmit.do",
+    "url": "/rhn/manager/cm/build",
     "count": 1
   }
 ]
