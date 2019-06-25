@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
+import urlCountData from './data/url-count.json';
 
 function BasicExample() {
   return (
@@ -46,6 +47,24 @@ function URLCount() {
   return (
     <div>
       <h2>URLCount</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>URL</th>
+            <th className="center">Count</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            urlCountData.map(d =>
+              <tr>
+                <td>{d.url}</td>
+                <td className="center">{d.count}</td>
+              </tr>
+            )
+          }
+        </tbody>
+      </table>
     </div>
   );
 }
