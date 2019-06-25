@@ -37,14 +37,16 @@ function URLCount() {
       <table>
         <thead>
           <tr>
+            <th className="center"><small>id</small></th>
             <th>URL</th>
             <th className="center">Count</th>
           </tr>
         </thead>
         <tbody>
           {
-            urlCountData.map(d =>
-              <tr>
+            urlCountData.map((d, i) =>
+              <tr key={"row-" + i}>
+                <td className="center"><small>{i}</small></td>
                 <td>{d.url}</td>
                 <td className="center">{d.count}</td>
               </tr>
