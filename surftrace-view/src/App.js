@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect, Link } from "react-router-dom";
 import './App.css';
 import urlCountData from './data/url-count.json';
 
@@ -8,9 +8,6 @@ function BasicExample() {
     <Router>
       <menu>
         <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
           <li>
             <Link to="/urlcount">URL Count</Link>
           </li>
@@ -29,17 +26,7 @@ function BasicExample() {
 
 function Home() {
   return (
-    <div>
-      <h2>Home</h2>
-        <ul>
-          <li>
-            <Link to="/urlcount">URL Count</Link>
-          </li>
-          <li>
-            <Link to="/patterns">Patterns</Link>
-          </li>
-        </ul>
-    </div>
+    <Redirect to={{pathname: "/urlcount"}}/>
   );
 }
 
