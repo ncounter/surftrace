@@ -1,19 +1,19 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Redirect, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect, NavLink } from "react-router-dom";
 import './App.css';
 import urlCountData from './data/url-count.json';
 import patternCountData from './data/pattern-count.json';
 
-function BasicExample() {
+function RoutedContent() {
   return (
     <Router>
       <menu>
         <ul>
           <li>
-            <Link to="/urlcount">URL Count</Link>
+            <NavLink to="/urlcount">URL Count</NavLink>
           </li>
           <li>
-            <Link to="/patterns">Patterns</Link>
+            <NavLink to="/patterns">Patterns</NavLink>
           </li>
         </ul>
       </menu>
@@ -25,20 +25,16 @@ function BasicExample() {
   );
 }
 
-function Home() {
-  return (
-    <Redirect to={{pathname: "/urlcount"}}/>
-  );
-}
+function Home() { return ( <Redirect to={{pathname: "/urlcount"}}/> ); }
 
 function URLCount() {
   return (
-    <div>
-      <h2>URLCount</h2>
+    <div className="content-wrapper">
+      <h2>URL Count</h2>
       <table>
         <thead>
           <tr>
-            <th className="center"><small>id</small></th>
+            <th className="center width-1em"></th>
             <th>URL</th>
             <th className="center">Count</th>
           </tr>
@@ -61,12 +57,12 @@ function URLCount() {
 
 function Patterns({ match }) {
   return (
-    <div>
+    <div className="content-wrapper">
       <h2>Patterns</h2>
       <table>
         <thead>
           <tr>
-            <th className="center"><small>id</small></th>
+            <th className="center width-1em"></th>
             <th>From</th>
             <th>To</th>
             <th className="center">Count</th>
@@ -107,12 +103,12 @@ function Patterns({ match }) {
   );
 }
 
-function Topic({ match }) {
-  return (
-    <div>
-      <h3>{match.params.topicId}</h3>
-    </div>
-  );
-}
+// function Topic({ match }) {
+//   return (
+//     <div>
+//       <h3>{match.params.topicId}</h3>
+//     </div>
+//   );
+// }
 
-export default BasicExample;
+export default RoutedContent;

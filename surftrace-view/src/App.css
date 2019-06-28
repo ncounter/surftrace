@@ -1,3 +1,14 @@
+body {
+  background-color: #fafafa;
+  color: #333;
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -9,12 +20,13 @@ a:hover {
 menu {
   display: block;
   margin: 0;
-  padding: 0 0.5em;
+  padding: .5em;
   overflow: auto;
   border-bottom: 1px solid #999;
+  background-color: #2b5172;
+  color: #f9f9f9;
 }
 menu ul, menu ul li {
-  color: #358;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -24,23 +36,41 @@ menu ul li {
   vertical-align: top;
   padding: 0 .5em;
 }
+menu ul li a.active {
+  color: #aaa;
+}
+
+.content-wrapper {
+  margin: 0 1em;
+}
 
 table {
   border-collapse: collapse;
-  display: inline-table;
-  width: 90%;
+  width: 100%;
 }
 table tr th {
-  background-color: #ccc;
+  background-color: rgb(255, 233, 193);
 }
 
 table tr th,
 table tr td {
-  border: 1px solid #aaa;
+  border: 1px solid rgb(223, 203, 167);
   padding: .4em .7em;
   text-align: left;
 }
+table tr:nth-child(2n+2) td {
+  background-color: rgb(255, 249, 234);
+}
+table tr:hover td {
+  background-color: rgb(255, 233, 193);
+}
+
 table tr th.center,
 table tr td.center {
   text-align: center;
+}
+
+table tr th.width-1em,
+table tr td.width-1em {
+  width: 1em;
 }
