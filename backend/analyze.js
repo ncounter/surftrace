@@ -1,4 +1,6 @@
-const Fs = require("fs");
+const Fs = require('fs');
+const Readline = require('readline');
+const Stream = require('stream');
 
 // Make sure we got a filename on the command line.
 if (process.argv.length < 3) {
@@ -6,7 +8,20 @@ if (process.argv.length < 3) {
   process.exit(1);
 }
 
-/* core analysis logic */
+// construct a new Object
+function LogLineObject(userId, datetime, action, url, queryString) {
+  var o = new Object();
+  o['userId'] = userId;
+  o['datetime'] = datetime;
+  o['action'] = action;
+  o['url'] = url;
+  o['queryString'] = queryString  || '';
+  return o;
+}
+
+/*
+ * core analysis logic
+ */
 
 // count how many times an URL has been 'loaded'
 function countLoadingUrl(data) {
@@ -26,7 +41,7 @@ function countLoadingUrl(data) {
 }
 
 // count recurrent patterns
-function countUrlPatterns(data) {
+function countLoadingPatterns(data) {
   // order by date
   const loadingData = data.filter(d => d.action == 'Loading').sort((a,b) => new Date(a.datetime) <= new Date(b.datetime) ? -1 : 1);
 
@@ -67,21 +82,58 @@ function countUrlPatterns(data) {
     .sort((a,b) => pairOfRequests[b].count - pairOfRequests[a].count)
     .map(k => pairOfRequests[k]);
 }
+/*
+ * end of core logic
+ */
 
-/* end of core logic */
-
-
-// parse the JSON file into an object
-function parseData(inputFile) {
-  const dataFromFile = JSON.parse(Fs.readFileSync(inputFile));
-
-  const urlCount = countLoadingUrl(dataFromFile);
+// parse the JSON data into an object
+function analyzeData(inputFile, data) {
+  const urlCount = countLoadingUrl(data);
   // save the urlCount data
   Fs.writeFile(inputFile + '-url-count.json', JSON.stringify(urlCount, null, 2), 'utf8', () => {});
 
-  const patternCount = countUrlPatterns(dataFromFile);
+  const patternCount = countLoadingPatterns(data);
   // save the urlCount data
   Fs.writeFile(inputFile + '-pattern-count.json', JSON.stringify(patternCount, null, 2), 'utf8', () => {});
 }
-parseData(process.argv[2]);
 
+// reshape the log line extracting values which are the interested ones
+// from `2019-02-13 13:48:33,284 [ajp-apr-127.0.0.1-8009-exec-5] INFO  com.suse.manager.webui.controllers.FrontendLogController - [10] - [Wed, 13 Feb 2019 20:50:25 GMT] - Loading 'https://srv.tf.local/rhn/users/UserDetails.do?uid=15'`
+// to [{"userId": "10", "datetime": "Wed, 13 Feb 2019 20:50:25 GMT", "action": "Loading", "url": "https://srv.tf.local/rhn/users/UserDetails.do"}]
+function normalizeData(line) {
+  var valuesPatter = /.*FrontendLogController - \[(\d*\w*)*\] - \[(.*)\] - (\w*) `(.*)`/g;
+  var normalizedObject = new LogLineObject(
+    line.replace(valuesPatter, '$1'),
+    line.replace(valuesPatter, '$2'),
+    line.replace(valuesPatter, '$3'),
+    line.replace(valuesPatter, '$4').split('?')[0] // drop the QueryString slice from the URL
+      .replace(/https?:\/\/(\w*\.*)*/g, ''), // drop the name of the server
+    line.replace(valuesPatter, '$4').split('?')[1], // keep the QueryString slice only
+  );
+  return normalizedObject;
+}
+
+// process the log file passed through args
+function processFile(inputFile) {
+  var data = [];
+
+  const instream = Fs.createReadStream(inputFile);
+  const outstream = new (Stream)();
+  const rl = Readline.createInterface(instream, outstream);
+
+  rl.on('line', function (line) {
+    if (line && line != null) {
+      data.push(normalizeData(line));
+    }
+  });
+
+  rl.on('close', function (line) {
+    if (line && line != null) {
+      data.push(normalizeData(line));
+    }
+    // save the normalized data
+    Fs.writeFile(inputFile + '-normalized.json', JSON.stringify(data, null, 2), 'utf8', () => {});
+    analyzeData(inputFile, data);
+  });
+}
+processFile(process.argv[2]);

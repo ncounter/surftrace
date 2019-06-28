@@ -4,8 +4,7 @@ Analyze and put together navigation traces of a [Uyuni](https://github.com/uyuni
 ## Requirements
 - `npm`
 
-
-## normalize.js
+## analyze.js
 
 ### Requirements
 ```javascript
@@ -32,30 +31,14 @@ To
 ]
 ```
 
-### How to use
-```
-node normalize.js rhn_web_frontend.log
-```
-
 and it produces a `rhn_web_frontend.log-normalized.json` file with the output in the format as described above.
 
-
-## analyze.js
-
-### Requirements
-```javascript
-const Fs = require('fs');
-```
-
-### What it does
-It produces:
+Then it produces:
  - a new `JSON` file containing distinct loaded URLs and the requested count of each. The new file name will be *the_source_file_name* + `-url-count.json` suffix.
  - a new `JSON` file containing loaded URLs in a `from - to` pattern and the requested count of each pattern. The new file name will be *the_source_file_name* + `-pattern-count.json` suffix.
 
 ### How to use
 
 ```
-node analyze.js rhn_web_frontend.log-normalized.json
+node analyze.js data-sources/rhn_web_frontend.log-normalized.json
 ```
-
-It will produced by the [normalize.js](#normalizejs) tool described before.
