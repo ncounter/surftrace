@@ -67,17 +67,19 @@ function Patterns({ match }) {
         <thead>
           <tr>
             <th className="center"><small>id</small></th>
-            <th>UserId</th>
-            <th className="center">URLs</th>
+            <th>From</th>
+            <th>To</th>
+            <th className="center">Count</th>
           </tr>
         </thead>
         <tbody>
           {
-            patternCountData.map((u, i) =>
+            patternCountData.map((p, i) =>
               <tr key={"row-" + i}>
                 <td className="center"><small>{i}</small></td>
-                <td>{Object.keys(u)}</td>
-                <td className="center">{u[Object.keys(u)].map(x => x.url).reduce((v, t) => <div><div>{v}</div><div>{t}</div></div>)}</td>
+                <td>{p.from.url}</td>
+                <td>{p.to.url}</td>
+                <td className="center">{p.count}</td>
               </tr>
             )
           }

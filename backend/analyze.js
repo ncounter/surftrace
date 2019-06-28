@@ -31,14 +31,34 @@ function countUrlPatterns(data) {
   const loadingData = data.filter(d => d.action == 'Loading').sort((a,b) => new Date(a.datetime) <= new Date(b.datetime) ? -1 : 1);
 
   // create a slice of logs for each user
-  const uniqueUsers = [...new Set(loadingData.map(d => d.userId))];
-  let groupDataByUser = [];
+  const uniqueUsers = [...new Set(loadingData.map(d => d.userId).sort((a,b) => a - b))];
+
+  let pairOfRequests = {};
   uniqueUsers.forEach(u => {
-    var o = {};
-    o[u] = loadingData.filter(d => d.userId == u);
-    groupDataByUser.push(o);
+    const history = loadingData.filter(d => d.userId == u);
+
+    // take a pair of requests and count how many times the pattern appears
+    history.forEach((h, i) => {
+      if (i < history.length -1) {
+        const patternKey = h.url + ' - ' + history[i+1].url;
+        if (pairOfRequests[patternKey]) {
+           pairOfRequests[patternKey].count += 1;
+        }
+        else {
+          var o = {};
+          o['from'] = h;
+          o['to'] = history[i+1];
+          o['count'] = 1;
+          pairOfRequests[patternKey] = o;
+        }
+      }
+    });
   });
-  return groupDataByUser;
+
+  // recreate the object after sorting them by count
+  return Object.keys(pairOfRequests)
+    .sort((a,b) => pairOfRequests[b].count - pairOfRequests[a].count)
+    .map(k => pairOfRequests[k]);
 }
 
 /* end of core logic */
