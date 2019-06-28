@@ -45,7 +45,7 @@ function URLCount() {
               <tr key={"row-" + i}>
                 <td className="center"><small>{i}</small></td>
                 <td>{d.url}</td>
-                <td className="center">{d.count}</td>
+                <td className="center"><strong>{d.count}</strong></td>
               </tr>
             )
           }
@@ -66,6 +66,7 @@ function Patterns({ match }) {
             <th>From</th>
             <th>To</th>
             <th className="center">Count</th>
+            <th className="center">Average Delay (s)</th>
           </tr>
         </thead>
         <tbody>
@@ -73,14 +74,22 @@ function Patterns({ match }) {
             patternCountData.map((p, i) =>
               <tr key={"row-" + i}>
                 <td className="center"><small>{i}</small></td>
-                <td>{p.from.url}</td>
-                <td>{p.to.url}</td>
-                <td className="center">{p.count}</td>
+                <td>{p.from}</td>
+                <td>{p.to}</td>
+                <td className="center"><strong>{p.count}</strong></td>
+                <td className="center">
+                  <strong>{ Math.round(p.delay.reduce((a,b) => a+b) / p.delay.length, 0) }</strong>
+                  &nbsp;
+                  <span><small>[max: {Math.max.apply(Math, p.delay)}</small></span>
+                  &nbsp;
+                  <span><small>min: {Math.min.apply(Math, p.delay)}]</small></span>
+                </td>
               </tr>
             )
           }
         </tbody>
       </table>
+      <div className="detail-box"></div>
       {/* <ul>
         <li>
           <Link to={`${match.url}/rendering`}>Rendering with React</Link>

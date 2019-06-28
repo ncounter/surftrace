@@ -59,7 +59,7 @@ table tr td {
   text-align: left;
 }
 table tr:nth-child(2n+2) td {
-  background-color: rgb(255, 249, 234);
+  background-color: rgb(240, 237, 228);
 }
 table tr:hover td {
   background-color: rgb(255, 233, 193);

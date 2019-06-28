@@ -41,14 +41,17 @@ function countUrlPatterns(data) {
     history.forEach((h, i) => {
       if (i < history.length -1) {
         const patternKey = h.url + ' - ' + history[i+1].url;
+        const currentDelay = (new Date(history[i+1].datetime) - new Date(h.datetime)) / 1000;
         if (pairOfRequests[patternKey]) {
-           pairOfRequests[patternKey].count += 1;
+          pairOfRequests[patternKey].count += 1;
+          pairOfRequests[patternKey].delay.push(currentDelay);
         }
         else {
           var o = {};
-          o['from'] = h;
-          o['to'] = history[i+1];
+          o['from'] = h.url;
+          o['to'] = history[i+1].url;
           o['count'] = 1;
+          o['delay'] = [currentDelay];
           pairOfRequests[patternKey] = o;
         }
       }
