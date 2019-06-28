@@ -107,7 +107,7 @@ function normalizeData(line) {
     line.replace(valuesPatter, '$2'),
     line.replace(valuesPatter, '$3'),
     line.replace(valuesPatter, '$4').split('?')[0] // drop the QueryString slice from the URL
-      .replace(/https?:\/\/(\w*\.*)*/g, ''), // drop the name of the server
+      .replace(/https?:\/\/[^\/]*/g, ''), // drop the name of the server
     line.replace(valuesPatter, '$4').split('?')[1], // keep the QueryString slice only
   );
   return normalizedObject;
