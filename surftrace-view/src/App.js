@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Redirect, Link } from "react-router-dom";
 import './App.css';
 import urlCountData from './data/url-count.json';
+import patternCountData from './data/pattern-count.json';
 
 function BasicExample() {
   return (
@@ -62,6 +63,26 @@ function Patterns({ match }) {
   return (
     <div>
       <h2>Patterns</h2>
+      <table>
+        <thead>
+          <tr>
+            <th className="center"><small>id</small></th>
+            <th>UserId</th>
+            <th className="center">URLs</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            patternCountData.map((u, i) =>
+              <tr key={"row-" + i}>
+                <td className="center"><small>{i}</small></td>
+                <td>{Object.keys(u)}</td>
+                <td className="center">{u[Object.keys(u)].map(x => x.url).reduce((v, t) => <div><div>{v}</div><div>{t}</div></div>)}</td>
+              </tr>
+            )
+          }
+        </tbody>
+      </table>
       {/* <ul>
         <li>
           <Link to={`${match.url}/rendering`}>Rendering with React</Link>
