@@ -48,7 +48,9 @@ const Fs = require('fs');
 ```
 
 ### What it does
-It produces a new `JSON` file containing distinct loaded URLs and the requested count of each. The new file name will be *the_source_file_name* + `-url-count.json` suffix.
+It produces:
+ - a new `JSON` file containing distinct loaded URLs and the requested count of each. The new file name will be *the_source_file_name* + `-url-count.json` suffix.
+ - a new `JSON` file containing loaded URLs in a `from - to` pattern and the requested count of each pattern. The new file name will be *the_source_file_name* + `-pattern-count.json` suffix.
 
 ### How to use
 

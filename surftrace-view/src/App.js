@@ -65,18 +65,18 @@ function Patterns({ match }) {
             <th className="center width-1em"></th>
             <th>From</th>
             <th>To</th>
-            <th className="center">Count</th>
+            <th className="center">Count (reloads)</th>
             <th className="center">Average Delay (s)</th>
           </tr>
         </thead>
         <tbody>
           {
-            patternCountData.map((p, i) =>
+            patternCountData.filter(p => p.count > 1).map((p, i) =>
               <tr key={"row-" + i}>
                 <td className="center"><small>{i}</small></td>
                 <td>{p.from}</td>
                 <td>{p.to}</td>
-                <td className="center"><strong>{p.count}</strong></td>
+                <td className="center"><strong>{p.count} {p.reloadCount > 0 ? '(' + p.reloadCount + ')': ''}</strong></td>
                 <td className="center">
                   <strong>{ Math.round(p.delay.reduce((a,b) => a+b) / p.delay.length, 0) }</strong>
                   &nbsp;

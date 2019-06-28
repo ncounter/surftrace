@@ -44,6 +44,9 @@ function countUrlPatterns(data) {
         const currentDelay = (new Date(history[i+1].datetime) - new Date(h.datetime)) / 1000;
         if (pairOfRequests[patternKey]) {
           pairOfRequests[patternKey].count += 1;
+          if (h.url == history[i+1].url && h.queryString == history[i+1].queryString) {
+            pairOfRequests[patternKey].reloadCount += 1;
+          }
           pairOfRequests[patternKey].delay.push(currentDelay);
         }
         else {
@@ -51,6 +54,7 @@ function countUrlPatterns(data) {
           o['from'] = h.url;
           o['to'] = history[i+1].url;
           o['count'] = 1;
+          o['reloadCount'] = h.url == history[i+1].url && h.queryString == history[i+1].queryString ? 1 : 0;
           o['delay'] = [currentDelay];
           pairOfRequests[patternKey] = o;
         }
