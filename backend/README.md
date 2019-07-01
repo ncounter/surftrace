@@ -40,5 +40,5 @@ Then it produces:
 ### How to use
 
 ```
-node analyze.js data-sources/rhn_web_frontend.log-normalized.json
+node analyze.js data-sources/rhn_web_frontend.log
 ```
