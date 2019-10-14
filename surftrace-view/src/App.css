@@ -2,6 +2,7 @@ body {
   background-color: #fafafa;
   color: #333;
   margin: auto;
+  padding-bottom: 2em;
 }
 
 * {
@@ -39,6 +40,10 @@ menu ul li {
 menu ul li a.active {
   color: #aaa;
 }
+menu ul li a.active:hover {
+  text-decoration: none;
+  cursor: default;
+}
 
 .content-wrapper {
   margin: 0 1em;
@@ -49,7 +54,7 @@ table {
   width: 100%;
 }
 table tr th {
-  background-color: rgb(255, 233, 193);
+  background-color: rgb(143, 181, 214);
 }
 
 table tr th,
