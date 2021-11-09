@@ -3965,12 +3965,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 9,
-    "maxDelay": [
-      9
-    ],
-    "minDelay": [
-      9
-    ]
+    "maxDelay": 9,
+    "minDelay": 9
   },
   {
     "from": "/rhn/admin/multiorg/Users.do",
@@ -3978,12 +3974,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 38,
-    "maxDelay": [
-      38
-    ],
-    "minDelay": [
-      38
-    ]
+    "maxDelay": 38,
+    "minDelay": 38
   },
   {
     "from": "/rhn/admin/multiorg/Organizations.do",
@@ -3991,12 +3983,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/admin/multiorg/OrgDetails.do",
@@ -4004,12 +3992,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/manager/multiorg/details/custom",
@@ -4017,12 +4001,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 1,
-    "maxDelay": [
-      1
-    ],
-    "minDelay": [
-      1
-    ]
+    "maxDelay": 1,
+    "minDelay": 1
   },
   {
     "from": "/rhn/admin/multiorg/OrgUsers.do",
@@ -4030,12 +4010,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 18,
-    "maxDelay": [
-      18
-    ],
-    "minDelay": [
-      18
-    ]
+    "maxDelay": 18,
+    "minDelay": 18
   },
   {
     "from": "/rhn/admin/multiorg/Users.do",
@@ -4043,12 +4019,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 6,
-    "maxDelay": [
-      6
-    ],
-    "minDelay": [
-      6
-    ]
+    "maxDelay": 6,
+    "minDelay": 6
   },
   {
     "from": "/rhn/users/UserList.do",
@@ -4056,12 +4028,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/users/CreateUser.do",
@@ -4069,12 +4037,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 33,
-    "maxDelay": [
-      33
-    ],
-    "minDelay": [
-      33
-    ]
+    "maxDelay": 33,
+    "minDelay": 33
   },
   {
     "from": "/rhn/systems/details/ErrataList.do",
@@ -4082,12 +4046,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 7,
-    "maxDelay": [
-      7
-    ],
-    "minDelay": [
-      7
-    ]
+    "maxDelay": 7,
+    "minDelay": 7
   },
   {
     "from": "/rhn/systems/details/virtualization/VirtualGuestsList.do",
@@ -4095,12 +4055,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/systems/details/packages/Packages.do",
@@ -4108,12 +4064,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 9,
-    "maxDelay": [
-      9
-    ],
-    "minDelay": [
-      9
-    ]
+    "maxDelay": 9,
+    "minDelay": 9
   },
   {
     "from": "/rhn/channels/ChannelErrata.do",
@@ -4121,12 +4073,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 6,
-    "maxDelay": [
-      6
-    ],
-    "minDelay": [
-      6
-    ]
+    "maxDelay": 6,
+    "minDelay": 6
   },
   {
     "from": "/rhn/channels/Managers.do",
@@ -4134,12 +4082,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 6,
-    "maxDelay": [
-      6
-    ],
-    "minDelay": [
-      6
-    ]
+    "maxDelay": 6,
+    "minDelay": 6
   },
   {
     "from": "/rhn/channels/ChannelErrata.do",
@@ -4147,12 +4091,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 76166,
-    "maxDelay": [
-      76166
-    ],
-    "minDelay": [
-      76166
-    ]
+    "maxDelay": 76166,
+    "minDelay": 76166
   },
   {
     "from": "/rhn/software/channels/Custom.do",
@@ -4160,12 +4100,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/channels/ChannelDetail.do",
@@ -4173,12 +4109,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/software/channels/Custom.do",
@@ -4186,12 +4118,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 101,
-    "maxDelay": [
-      101
-    ],
-    "minDelay": [
-      101
-    ]
+    "maxDelay": 101,
+    "minDelay": 101
   },
   {
     "from": "/rhn/channels/ChannelSubscribers.do",
@@ -4199,12 +4127,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 16069,
-    "maxDelay": [
-      16069
-    ],
-    "minDelay": [
-      16069
-    ]
+    "maxDelay": 16069,
+    "minDelay": 16069
   },
   {
     "from": "/rhn/groups/GroupDetail.do",
@@ -4212,12 +4136,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/errata/details/Details.do",
@@ -4225,12 +4145,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 51,
-    "maxDelay": [
-      51
-    ],
-    "minDelay": [
-      51
-    ]
+    "maxDelay": 51,
+    "minDelay": 51
   },
   {
     "from": "/rhn/groups/ListErrata.do",
@@ -4238,12 +4154,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 8,
-    "maxDelay": [
-      8
-    ],
-    "minDelay": [
-      8
-    ]
+    "maxDelay": 8,
+    "minDelay": 8
   },
   {
     "from": "/rhn/groups/SystemsAffected.do",
@@ -4251,12 +4163,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 13,
-    "maxDelay": [
-      13
-    ],
-    "minDelay": [
-      13
-    ]
+    "maxDelay": 13,
+    "minDelay": 13
   },
   {
     "from": "/rhn/activationkeys/List.do",
@@ -4264,12 +4172,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 36,
-    "maxDelay": [
-      36
-    ],
-    "minDelay": [
-      36
-    ]
+    "maxDelay": 36,
+    "minDelay": 36
   },
   {
     "from": "/rhn/systems/details/Overview.do",
@@ -4277,12 +4181,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/systems/details/groups/ListRemove.do",
@@ -4290,12 +4190,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 6,
-    "maxDelay": [
-      6
-    ],
-    "minDelay": [
-      6
-    ]
+    "maxDelay": 6,
+    "minDelay": 6
   },
   {
     "from": "/rhn/systems/details/virtualization/VirtualGuestsList.do",
@@ -4303,12 +4199,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 80,
-    "maxDelay": [
-      80
-    ],
-    "minDelay": [
-      80
-    ]
+    "maxDelay": 80,
+    "minDelay": 80
   },
   {
     "from": "/rhn/systems/SystemList.do",
@@ -4316,12 +4208,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 1072,
-    "maxDelay": [
-      1072
-    ],
-    "minDelay": [
-      1072
-    ]
+    "maxDelay": 1072,
+    "minDelay": 1072
   },
   {
     "from": "/rhn/channels/ChannelDetail.do",
@@ -4329,12 +4217,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/channels/manage/Delete.do",
@@ -4342,12 +4226,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 10,
-    "maxDelay": [
-      10
-    ],
-    "minDelay": [
-      10
-    ]
+    "maxDelay": 10,
+    "minDelay": 10
   },
   {
     "from": "/rhn/channels/manage/Delete.do",
@@ -4355,12 +4235,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 22,
-    "maxDelay": [
-      22
-    ],
-    "minDelay": [
-      22
-    ]
+    "maxDelay": 22,
+    "minDelay": 22
   },
   {
     "from": "/rhn/software/manage/packages/PackageList.do",
@@ -4368,12 +4244,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 18,
-    "maxDelay": [
-      18
-    ],
-    "minDelay": [
-      18
-    ]
+    "maxDelay": 18,
+    "minDelay": 18
   },
   {
     "from": "/rhn/channels/ChannelErrata.do",
@@ -4381,12 +4253,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 14,
-    "maxDelay": [
-      14
-    ],
-    "minDelay": [
-      14
-    ]
+    "maxDelay": 14,
+    "minDelay": 14
   },
   {
     "from": "/rhn/users/UserList.do",
@@ -4394,12 +4262,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 11,
-    "maxDelay": [
-      11
-    ],
-    "minDelay": [
-      11
-    ]
+    "maxDelay": 11,
+    "minDelay": 11
   },
   {
     "from": "/rhn/users/DeleteUser.do",
@@ -4407,12 +4271,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/users/DeleteUserSubmit.do",
@@ -4420,12 +4280,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 12,
-    "maxDelay": [
-      12
-    ],
-    "minDelay": [
-      12
-    ]
+    "maxDelay": 12,
+    "minDelay": 12
   },
   {
     "from": "/rhn/users/ActiveList.do",
@@ -4433,12 +4289,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 19,
-    "maxDelay": [
-      19
-    ],
-    "minDelay": [
-      19
-    ]
+    "maxDelay": 19,
+    "minDelay": 19
   },
   {
     "from": "/rhn/systems/details/ErrataList.do",
@@ -4446,12 +4298,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 7,
-    "maxDelay": [
-      7
-    ],
-    "minDelay": [
-      7
-    ]
+    "maxDelay": 7,
+    "minDelay": 7
   },
   {
     "from": "/rhn/errata/details/Packages.do",
@@ -4459,12 +4307,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 94,
-    "maxDelay": [
-      94
-    ],
-    "minDelay": [
-      94
-    ]
+    "maxDelay": 94,
+    "minDelay": 94
   },
   {
     "from": "/rhn/systems/details/history/Pending.do",
@@ -4472,12 +4316,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/manager/systems/keys",
@@ -4485,12 +4325,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 47,
-    "maxDelay": [
-      47
-    ],
-    "minDelay": [
-      47
-    ]
+    "maxDelay": 47,
+    "minDelay": 47
   },
   {
     "from": "/rhn/systems/Inactive.do",
@@ -4498,12 +4334,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 20,
-    "maxDelay": [
-      20
-    ],
-    "minDelay": [
-      20
-    ]
+    "maxDelay": 20,
+    "minDelay": 20
   },
   {
     "from": "/rhn/systems/SystemList.do",
@@ -4511,12 +4343,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 7,
-    "maxDelay": [
-      7
-    ],
-    "minDelay": [
-      7
-    ]
+    "maxDelay": 7,
+    "minDelay": 7
   },
   {
     "from": "/rhn/manager/systems/keys",
@@ -4524,12 +4352,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 870,
-    "maxDelay": [
-      870
-    ],
-    "minDelay": [
-      870
-    ]
+    "maxDelay": 870,
+    "minDelay": 870
   },
   {
     "from": "/rhn/systems/details/packages/UpgradableList.do",
@@ -4537,12 +4361,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 16,
-    "maxDelay": [
-      16
-    ],
-    "minDelay": [
-      16
-    ]
+    "maxDelay": 16,
+    "minDelay": 16
   },
   {
     "from": "/rhn/manager/systems/details/highstate",
@@ -4550,12 +4370,8 @@
     "count": 1,
     "reloadCount": 1,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/systems/details/RebootSystem.do",
@@ -4563,12 +4379,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/systems/details/SystemHardware.do",
@@ -4576,12 +4388,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 12,
-    "maxDelay": [
-      12
-    ],
-    "minDelay": [
-      12
-    ]
+    "maxDelay": 12,
+    "minDelay": 12
   },
   {
     "from": "/rhn/systems/details/ErrataList.do",
@@ -4589,12 +4397,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 1,
-    "maxDelay": [
-      1
-    ],
-    "minDelay": [
-      1
-    ]
+    "maxDelay": 1,
+    "minDelay": 1
   },
   {
     "from": "/rhn/systems/details/SPMigration.do",
@@ -4602,12 +4406,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/systems/details/history/Event.do",
@@ -4615,12 +4415,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 19,
-    "maxDelay": [
-      19
-    ],
-    "minDelay": [
-      19
-    ]
+    "maxDelay": 19,
+    "minDelay": 19
   },
   {
     "from": "/rhn/manager/systems/details/formulas",
@@ -4628,12 +4424,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 8,
-    "maxDelay": [
-      8
-    ],
-    "minDelay": [
-      8
-    ]
+    "maxDelay": 8,
+    "minDelay": 8
   },
   {
     "from": "/rhn/manager/systems/details/highstate",
@@ -4641,12 +4433,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/systems/details/audit/ListScap.do",
@@ -4654,12 +4442,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/systems/details/virtualization/VirtualGuestsList.do",
@@ -4667,12 +4451,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 1,
-    "maxDelay": [
-      1
-    ],
-    "minDelay": [
-      1
-    ]
+    "maxDelay": 1,
+    "minDelay": 1
   },
   {
     "from": "/rhn/systems/details/groups/ListRemove.do",
@@ -4680,12 +4460,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/systems/details/kickstart/PowerManagement.do",
@@ -4693,12 +4469,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/systems/Inactive.do",
@@ -4706,12 +4478,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 39,
-    "maxDelay": [
-      39
-    ],
-    "minDelay": [
-      39
-    ]
+    "maxDelay": 39,
+    "minDelay": 39
   },
   {
     "from": "/rhn/ssm/ViewAllLog.do",
@@ -4719,12 +4487,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 1769,
-    "maxDelay": [
-      1769
-    ],
-    "minDelay": [
-      1769
-    ]
+    "maxDelay": 1769,
+    "minDelay": 1769
   },
   {
     "from": "/rhn/manager/systems/keys",
@@ -4732,12 +4496,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 36,
-    "maxDelay": [
-      36
-    ],
-    "minDelay": [
-      36
-    ]
+    "maxDelay": 36,
+    "minDelay": 36
   },
   {
     "from": "/rhn/YourRhn.do",
@@ -4745,12 +4505,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 16,
-    "maxDelay": [
-      16
-    ],
-    "minDelay": [
-      16
-    ]
+    "maxDelay": 16,
+    "minDelay": 16
   },
   {
     "from": "/rhn/admin/multiorg/Organizations.do",
@@ -4758,12 +4514,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 10,
-    "maxDelay": [
-      10
-    ],
-    "minDelay": [
-      10
-    ]
+    "maxDelay": 10,
+    "minDelay": 10
   },
   {
     "from": "/rhn/admin/Catalina.do",
@@ -4771,12 +4523,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 28,
-    "maxDelay": [
-      28
-    ],
-    "minDelay": [
-      28
-    ]
+    "maxDelay": 28,
+    "minDelay": 28
   },
   {
     "from": "/rhn/admin/setup/MirrorCredentials.do",
@@ -4784,12 +4532,8 @@
     "count": 1,
     "reloadCount": 1,
     "averageDelay": 234,
-    "maxDelay": [
-      234
-    ],
-    "minDelay": [
-      234
-    ]
+    "maxDelay": 234,
+    "minDelay": 234
   },
   {
     "from": "/rhn/systems/details/history/Pending.do",
@@ -4797,12 +4541,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/systems/Overview.do",
@@ -4810,12 +4550,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 97,
-    "maxDelay": [
-      97
-    ],
-    "minDelay": [
-      97
-    ]
+    "maxDelay": 97,
+    "minDelay": 97
   },
   {
     "from": "/rhn/software/manage/packages/PackageList.do",
@@ -4823,12 +4559,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 36,
-    "maxDelay": [
-      36
-    ],
-    "minDelay": [
-      36
-    ]
+    "maxDelay": 36,
+    "minDelay": 36
   },
   {
     "from": "/rhn/manager/admin/setup/products",
@@ -4836,12 +4568,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 56,
-    "maxDelay": [
-      56
-    ],
-    "minDelay": [
-      56
-    ]
+    "maxDelay": 56,
+    "minDelay": 56
   },
   {
     "from": "/rhn/channels/manage/Manage.do",
@@ -4849,12 +4577,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 21,
-    "maxDelay": [
-      21
-    ],
-    "minDelay": [
-      21
-    ]
+    "maxDelay": 21,
+    "minDelay": 21
   },
   {
     "from": "/rhn/channels/manage/repos/RepoList.do",
@@ -4862,12 +4586,8 @@
     "count": 1,
     "reloadCount": 1,
     "averageDelay": 20,
-    "maxDelay": [
-      20
-    ],
-    "minDelay": [
-      20
-    ]
+    "maxDelay": 20,
+    "minDelay": 20
   },
   {
     "from": "/rhn/channels/manage/repos/RepoList.do",
@@ -4875,12 +4595,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/channels/manage/DistChannelMap.do",
@@ -4888,12 +4604,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 16,
-    "maxDelay": [
-      16
-    ],
-    "minDelay": [
-      16
-    ]
+    "maxDelay": 16,
+    "minDelay": 16
   },
   {
     "from": "/rhn/ssm/index.do",
@@ -4901,12 +4613,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/systems/details/history/Pending.do",
@@ -4914,12 +4622,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/systems/OutOfDate.do",
@@ -4927,12 +4631,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 7,
-    "maxDelay": [
-      7
-    ],
-    "minDelay": [
-      7
-    ]
+    "maxDelay": 7,
+    "minDelay": 7
   },
   {
     "from": "/rhn/systems/OutOfDate.do",
@@ -4940,12 +4640,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 8,
-    "maxDelay": [
-      8
-    ],
-    "minDelay": [
-      8
-    ]
+    "maxDelay": 8,
+    "minDelay": 8
   },
   {
     "from": "/rhn/manager/systems/keys",
@@ -4953,12 +4649,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 55653,
-    "maxDelay": [
-      55653
-    ],
-    "minDelay": [
-      55653
-    ]
+    "maxDelay": 55653,
+    "minDelay": 55653
   },
   {
     "from": "/rhn/admin/Catalina.do",
@@ -4966,12 +4658,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 1417,
-    "maxDelay": [
-      1417
-    ],
-    "minDelay": [
-      1417
-    ]
+    "maxDelay": 1417,
+    "minDelay": 1417
   },
   {
     "from": "/rhn/systems/Inactive.do",
@@ -4979,12 +4667,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 12,
-    "maxDelay": [
-      12
-    ],
-    "minDelay": [
-      12
-    ]
+    "maxDelay": 12,
+    "minDelay": 12
   },
   {
     "from": "/rhn/multiorg/OrgConfigDetails.do",
@@ -4992,12 +4676,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 375,
-    "maxDelay": [
-      375
-    ],
-    "minDelay": [
-      375
-    ]
+    "maxDelay": 375,
+    "minDelay": 375
   },
   {
     "from": "/rhn/activationkeys/packages/Packages.do",
@@ -5005,12 +4685,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 81,
-    "maxDelay": [
-      81
-    ],
-    "minDelay": [
-      81
-    ]
+    "maxDelay": 81,
+    "minDelay": 81
   },
   {
     "from": "/rhn/manager/systems/keys",
@@ -5018,12 +4694,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 447,
-    "maxDelay": [
-      447
-    ],
-    "minDelay": [
-      447
-    ]
+    "maxDelay": 447,
+    "minDelay": 447
   },
   {
     "from": "/rhn/manager/systems/details/highstate",
@@ -5031,12 +4703,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 568,
-    "maxDelay": [
-      568
-    ],
-    "minDelay": [
-      568
-    ]
+    "maxDelay": 568,
+    "minDelay": 568
   },
   {
     "from": "/rhn/admin/config/GeneralConfig.do",
@@ -5044,12 +4712,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 12,
-    "maxDelay": [
-      12
-    ],
-    "minDelay": [
-      12
-    ]
+    "maxDelay": 12,
+    "minDelay": 12
   },
   {
     "from": "/rhn/admin/config/BootstrapConfig.do",
@@ -5057,12 +4721,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/admin/config/Orgs.do",
@@ -5070,12 +4730,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/admin/config/BootstrapConfig.do",
@@ -5083,12 +4739,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 8,
-    "maxDelay": [
-      8
-    ],
-    "minDelay": [
-      8
-    ]
+    "maxDelay": 8,
+    "minDelay": 8
   },
   {
     "from": "/rhn/admin/config/Restart.do",
@@ -5096,12 +4748,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/admin/config/BootstrapSystems.do",
@@ -5109,12 +4757,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 20,
-    "maxDelay": [
-      20
-    ],
-    "minDelay": [
-      20
-    ]
+    "maxDelay": 20,
+    "minDelay": 20
   },
   {
     "from": "/rhn/systems/SystemList.do",
@@ -5122,12 +4766,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 35,
-    "maxDelay": [
-      35
-    ],
-    "minDelay": [
-      35
-    ]
+    "maxDelay": 35,
+    "minDelay": 35
   },
   {
     "from": "/rhn/systems/OutOfDate.do",
@@ -5135,12 +4775,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 30,
-    "maxDelay": [
-      30
-    ],
-    "minDelay": [
-      30
-    ]
+    "maxDelay": 30,
+    "minDelay": 30
   },
   {
     "from": "/rhn/systems/details/RebootSystem.do",
@@ -5148,12 +4784,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 6,
-    "maxDelay": [
-      6
-    ],
-    "minDelay": [
-      6
-    ]
+    "maxDelay": 6,
+    "minDelay": 6
   },
   {
     "from": "/rhn/systems/details/SystemRemoteCommand.do",
@@ -5161,12 +4793,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 8,
-    "maxDelay": [
-      8
-    ],
-    "minDelay": [
-      8
-    ]
+    "maxDelay": 8,
+    "minDelay": 8
   },
   {
     "from": "/rhn/systems/details/packages/PackageList.do",
@@ -5174,12 +4802,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 29,
-    "maxDelay": [
-      29
-    ],
-    "minDelay": [
-      29
-    ]
+    "maxDelay": 29,
+    "minDelay": 29
   },
   {
     "from": "/rhn/systems/details/packages/profiles/ShowProfiles.do",
@@ -5187,12 +4811,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 22,
-    "maxDelay": [
-      22
-    ],
-    "minDelay": [
-      22
-    ]
+    "maxDelay": 22,
+    "minDelay": 22
   },
   {
     "from": "/rhn/systems/details/audit/ListScap.do",
@@ -5200,12 +4820,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/systems/details/audit/ScheduleXccdf.do",
@@ -5213,12 +4829,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/systems/Search.do",
@@ -5226,12 +4838,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 480,
-    "maxDelay": [
-      480
-    ],
-    "minDelay": [
-      480
-    ]
+    "maxDelay": 480,
+    "minDelay": 480
   },
   {
     "from": "/rhn/manager/admin/setup/products",
@@ -5239,12 +4847,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 247,
-    "maxDelay": [
-      247
-    ],
-    "minDelay": [
-      247
-    ]
+    "maxDelay": 247,
+    "minDelay": 247
   },
   {
     "from": "/rhn/manager/systems/keys",
@@ -5252,12 +4856,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 97,
-    "maxDelay": [
-      97
-    ],
-    "minDelay": [
-      97
-    ]
+    "maxDelay": 97,
+    "minDelay": 97
   },
   {
     "from": "/rhn/groups/ListRemoveSystems.do",
@@ -5265,12 +4865,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 59,
-    "maxDelay": [
-      59
-    ],
-    "minDelay": [
-      59
-    ]
+    "maxDelay": 59,
+    "minDelay": 59
   },
   {
     "from": "/rhn/systems/details/packages/profiles/CompareSystems.do",
@@ -5278,12 +4874,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 1917,
-    "maxDelay": [
-      1917
-    ],
-    "minDelay": [
-      1917
-    ]
+    "maxDelay": 1917,
+    "minDelay": 1917
   },
   {
     "from": "/rhn/manager/admin/setup/products",
@@ -5291,12 +4883,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 58,
-    "maxDelay": [
-      58
-    ],
-    "minDelay": [
-      58
-    ]
+    "maxDelay": 58,
+    "minDelay": 58
   },
   {
     "from": "/rhn/systems/details/virtualization/VirtualGuestsList.do",
@@ -5304,12 +4892,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 7,
-    "maxDelay": [
-      7
-    ],
-    "minDelay": [
-      7
-    ]
+    "maxDelay": 7,
+    "minDelay": 7
   },
   {
     "from": "/rhn/systems/details/Overview.do",
@@ -5317,12 +4901,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3524,
-    "maxDelay": [
-      3524
-    ],
-    "minDelay": [
-      3524
-    ]
+    "maxDelay": 3524,
+    "minDelay": 3524
   },
   {
     "from": "/rhn/systems/Registered.do",
@@ -5330,12 +4910,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 27,
-    "maxDelay": [
-      27
-    ],
-    "minDelay": [
-      27
-    ]
+    "maxDelay": 27,
+    "minDelay": 27
   },
   {
     "from": "/rhn/YourRhn.do",
@@ -5343,12 +4919,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 20,
-    "maxDelay": [
-      20
-    ],
-    "minDelay": [
-      20
-    ]
+    "maxDelay": 20,
+    "minDelay": 20
   },
   {
     "from": "/rhn/systems/details/history/Event.do",
@@ -5356,12 +4928,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 127,
-    "maxDelay": [
-      127
-    ],
-    "minDelay": [
-      127
-    ]
+    "maxDelay": 127,
+    "minDelay": 127
   },
   {
     "from": "/rhn/systems/details/SystemHardware.do",
@@ -5369,12 +4937,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 705,
-    "maxDelay": [
-      705
-    ],
-    "minDelay": [
-      705
-    ]
+    "maxDelay": 705,
+    "minDelay": 705
   },
   {
     "from": "/rhn/systems/details/history/Event.do",
@@ -5382,12 +4946,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 41,
-    "maxDelay": [
-      41
-    ],
-    "minDelay": [
-      41
-    ]
+    "maxDelay": 41,
+    "minDelay": 41
   },
   {
     "from": "/rhn/schedule/ActionDetails.do",
@@ -5395,12 +4955,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 114,
-    "maxDelay": [
-      114
-    ],
-    "minDelay": [
-      114
-    ]
+    "maxDelay": 114,
+    "minDelay": 114
   },
   {
     "from": "/rhn/systems/details/history/FailEventConfirmation.do",
@@ -5408,12 +4964,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/systems/details/history/FailEventConfirmation.do",
@@ -5421,12 +4973,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/systems/details/SystemHardware.do",
@@ -5434,12 +4982,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 1016,
-    "maxDelay": [
-      1016
-    ],
-    "minDelay": [
-      1016
-    ]
+    "maxDelay": 1016,
+    "minDelay": 1016
   },
   {
     "from": "/rhn/systems/VirtualList.do",
@@ -5447,12 +4991,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 15,
-    "maxDelay": [
-      15
-    ],
-    "minDelay": [
-      15
-    ]
+    "maxDelay": 15,
+    "minDelay": 15
   },
   {
     "from": "/rhn/systems/Ungrouped.do",
@@ -5460,12 +5000,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 19,
-    "maxDelay": [
-      19
-    ],
-    "minDelay": [
-      19
-    ]
+    "maxDelay": 19,
+    "minDelay": 19
   },
   {
     "from": "/rhn/systems/details/Overview.do",
@@ -5473,12 +5009,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 10,
-    "maxDelay": [
-      10
-    ],
-    "minDelay": [
-      10
-    ]
+    "maxDelay": 10,
+    "minDelay": 10
   },
   {
     "from": "/rhn/systems/Ungrouped.do",
@@ -5486,12 +5018,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 20,
-    "maxDelay": [
-      20
-    ],
-    "minDelay": [
-      20
-    ]
+    "maxDelay": 20,
+    "minDelay": 20
   },
   {
     "from": "/rhn/groups/ListRemoveSystems.do",
@@ -5499,12 +5027,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 60,
-    "maxDelay": [
-      60
-    ],
-    "minDelay": [
-      60
-    ]
+    "maxDelay": 60,
+    "minDelay": 60
   },
   {
     "from": "/rhn/YourRhn.do#",
@@ -5512,12 +5036,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/systems/SystemList.do",
@@ -5525,12 +5045,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 47,
-    "maxDelay": [
-      47
-    ],
-    "minDelay": [
-      47
-    ]
+    "maxDelay": 47,
+    "minDelay": 47
   },
   {
     "from": "/rhn/systems/details/history/Event.do",
@@ -5538,12 +5054,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 13,
-    "maxDelay": [
-      13
-    ],
-    "minDelay": [
-      13
-    ]
+    "maxDelay": 13,
+    "minDelay": 13
   },
   {
     "from": "/rhn/errata/details/Packages.do",
@@ -5551,12 +5063,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 90492,
-    "maxDelay": [
-      90492
-    ],
-    "minDelay": [
-      90492
-    ]
+    "maxDelay": 90492,
+    "minDelay": 90492
   },
   {
     "from": "/rhn/YourRhn.do",
@@ -5564,12 +5072,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 15,
-    "maxDelay": [
-      15
-    ],
-    "minDelay": [
-      15
-    ]
+    "maxDelay": 15,
+    "minDelay": 15
   },
   {
     "from": "/rhn/channels/ChannelErrata.do",
@@ -5577,12 +5081,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 30,
-    "maxDelay": [
-      30
-    ],
-    "minDelay": [
-      30
-    ]
+    "maxDelay": 30,
+    "minDelay": 30
   },
   {
     "from": "/rhn/systems/details/Overview.do",
@@ -5590,12 +5090,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 10,
-    "maxDelay": [
-      10
-    ],
-    "minDelay": [
-      10
-    ]
+    "maxDelay": 10,
+    "minDelay": 10
   },
   {
     "from": "/rhn/systems/SystemList.do",
@@ -5603,12 +5099,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 15,
-    "maxDelay": [
-      15
-    ],
-    "minDelay": [
-      15
-    ]
+    "maxDelay": 15,
+    "minDelay": 15
   },
   {
     "from": "/rhn/systems/ssm/ListSystems.do",
@@ -5616,12 +5108,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 8,
-    "maxDelay": [
-      8
-    ],
-    "minDelay": [
-      8
-    ]
+    "maxDelay": 8,
+    "minDelay": 8
   },
   {
     "from": "/rhn/channel/ssm/ChannelSubscriptions.do",
@@ -5629,12 +5117,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/systems/ssm/provisioning/PowerManagementConfiguration.do",
@@ -5642,12 +5126,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/systems/ssm/groups/Manage.do",
@@ -5655,12 +5135,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4188,
-    "maxDelay": [
-      4188
-    ],
-    "minDelay": [
-      4188
-    ]
+    "maxDelay": 4188,
+    "minDelay": 4188
   },
   {
     "from": "/rhn/software/packages/Details.do",
@@ -5668,12 +5144,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/systems/details/packages/Packages.do",
@@ -5681,12 +5153,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 251745,
-    "maxDelay": [
-      251745
-    ],
-    "minDelay": [
-      251745
-    ]
+    "maxDelay": 251745,
+    "minDelay": 251745
   },
   {
     "from": "/rhn/systems/SystemGroupList.do",
@@ -5694,12 +5162,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 439,
-    "maxDelay": [
-      439
-    ],
-    "minDelay": [
-      439
-    ]
+    "maxDelay": 439,
+    "minDelay": 439
   },
   {
     "from": "/rhn/activationkeys/List.do",
@@ -5707,12 +5171,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2209,
-    "maxDelay": [
-      2209
-    ],
-    "minDelay": [
-      2209
-    ]
+    "maxDelay": 2209,
+    "minDelay": 2209
   },
   {
     "from": "/rhn/ssm/index.do",
@@ -5720,12 +5180,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 9,
-    "maxDelay": [
-      9
-    ],
-    "minDelay": [
-      9
-    ]
+    "maxDelay": 9,
+    "minDelay": 9
   },
   {
     "from": "/rhn/channels/software/Search.do",
@@ -5733,12 +5189,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 149,
-    "maxDelay": [
-      149
-    ],
-    "minDelay": [
-      149
-    ]
+    "maxDelay": 149,
+    "minDelay": 149
   },
   {
     "from": "/rhn/manager/admin/setup/products",
@@ -5746,12 +5198,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 377,
-    "maxDelay": [
-      377
-    ],
-    "minDelay": [
-      377
-    ]
+    "maxDelay": 377,
+    "minDelay": 377
   },
   {
     "from": "/rhn/systems/ssm/ListSystems.do",
@@ -5759,12 +5207,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/schedule/PendingActions.do",
@@ -5772,12 +5216,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 20169,
-    "maxDelay": [
-      20169
-    ],
-    "minDelay": [
-      20169
-    ]
+    "maxDelay": 20169,
+    "minDelay": 20169
   },
   {
     "from": "/rhn/groups/ListRemoveSystems.do",
@@ -5785,12 +5225,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 64704,
-    "maxDelay": [
-      64704
-    ],
-    "minDelay": [
-      64704
-    ]
+    "maxDelay": 64704,
+    "minDelay": 64704
   },
   {
     "from": "/rhn/manager/cm/images",
@@ -5798,12 +5234,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 39,
-    "maxDelay": [
-      39
-    ],
-    "minDelay": [
-      39
-    ]
+    "maxDelay": 39,
+    "minDelay": 39
   },
   {
     "from": "/rhn/manager/cm/import",
@@ -5811,12 +5243,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 9,
-    "maxDelay": [
-      9
-    ],
-    "minDelay": [
-      9
-    ]
+    "maxDelay": 9,
+    "minDelay": 9
   },
   {
     "from": "/rhn/manager/cm/imagestores/create",
@@ -5824,12 +5252,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 154,
-    "maxDelay": [
-      154
-    ],
-    "minDelay": [
-      154
-    ]
+    "maxDelay": 154,
+    "minDelay": 154
   },
   {
     "from": "/rhn/activationkeys/Edit.do",
@@ -5837,12 +5261,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 56,
-    "maxDelay": [
-      56
-    ],
-    "minDelay": [
-      56
-    ]
+    "maxDelay": 56,
+    "minDelay": 56
   },
   {
     "from": "/rhn/manager/cm/images",
@@ -5850,12 +5270,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/manager/cm/build",
@@ -5863,12 +5279,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 30,
-    "maxDelay": [
-      30
-    ],
-    "minDelay": [
-      30
-    ]
+    "maxDelay": 30,
+    "minDelay": 30
   },
   {
     "from": "/rhn/manager/cm/imagestores",
@@ -5876,12 +5288,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/manager/cm/imagestores/create",
@@ -5889,12 +5297,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5643,
-    "maxDelay": [
-      5643
-    ],
-    "minDelay": [
-      5643
-    ]
+    "maxDelay": 5643,
+    "minDelay": 5643
   },
   {
     "from": "/rhn/systems/details/Edit.do",
@@ -5902,12 +5306,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 15,
-    "maxDelay": [
-      15
-    ],
-    "minDelay": [
-      15
-    ]
+    "maxDelay": 15,
+    "minDelay": 15
   },
   {
     "from": "/rhn/systems/details/SystemRemoteCommand.do",
@@ -5915,12 +5315,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/systems/details/SystemHardware.do",
@@ -5928,12 +5324,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 7,
-    "maxDelay": [
-      7
-    ],
-    "minDelay": [
-      7
-    ]
+    "maxDelay": 7,
+    "minDelay": 7
   },
   {
     "from": "/rhn/systems/details/ListCustomData.do",
@@ -5941,12 +5333,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/systems/details/history/Pending.do",
@@ -5954,12 +5342,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 362213,
-    "maxDelay": [
-      362213
-    ],
-    "minDelay": [
-      362213
-    ]
+    "maxDelay": 362213,
+    "minDelay": 362213
   },
   {
     "from": "/rhn/YourRhn.do",
@@ -5967,12 +5351,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 28,
-    "maxDelay": [
-      28
-    ],
-    "minDelay": [
-      28
-    ]
+    "maxDelay": 28,
+    "minDelay": 28
   },
   {
     "from": "/rhn/errata/AllErrata.do",
@@ -5980,12 +5360,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 24,
-    "maxDelay": [
-      24
-    ],
-    "minDelay": [
-      24
-    ]
+    "maxDelay": 24,
+    "minDelay": 24
   },
   {
     "from": "/rhn/errata/RelevantErrata.do",
@@ -5993,12 +5369,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 46,
-    "maxDelay": [
-      46
-    ],
-    "minDelay": [
-      46
-    ]
+    "maxDelay": 46,
+    "minDelay": 46
   },
   {
     "from": "/rhn/systems/details/packages/Packages.do",
@@ -6006,12 +5378,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 42,
-    "maxDelay": [
-      42
-    ],
-    "minDelay": [
-      42
-    ]
+    "maxDelay": 42,
+    "minDelay": 42
   },
   {
     "from": "/rhn/systems/details/packages/UpgradeConfirm.do",
@@ -6019,12 +5387,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/systems/details/packages/UpgradableList.do",
@@ -6032,12 +5396,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/systems/details/SystemChannels.do",
@@ -6045,12 +5405,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 204,
-    "maxDelay": [
-      204
-    ],
-    "minDelay": [
-      204
-    ]
+    "maxDelay": 204,
+    "minDelay": 204
   },
   {
     "from": "/rhn/systems/ssm/ListErrata.do",
@@ -6058,12 +5414,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 38,
-    "maxDelay": [
-      38
-    ],
-    "minDelay": [
-      38
-    ]
+    "maxDelay": 38,
+    "minDelay": 38
   },
   {
     "from": "/rhn/systems/details/Overview.do",
@@ -6071,12 +5423,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 6,
-    "maxDelay": [
-      6
-    ],
-    "minDelay": [
-      6
-    ]
+    "maxDelay": 6,
+    "minDelay": 6
   },
   {
     "from": "/rhn/ssm/PackageUpgrade.do",
@@ -6084,12 +5432,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 95,
-    "maxDelay": [
-      95
-    ],
-    "minDelay": [
-      95
-    ]
+    "maxDelay": 95,
+    "minDelay": 95
   },
   {
     "from": "/rhn/systems/ssm/ListErrata.do",
@@ -6097,12 +5441,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 9,
-    "maxDelay": [
-      9
-    ],
-    "minDelay": [
-      9
-    ]
+    "maxDelay": 9,
+    "minDelay": 9
   },
   {
     "from": "/rhn/systems/ssm/misc/Index.do",
@@ -6110,12 +5450,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 28,
-    "maxDelay": [
-      28
-    ],
-    "minDelay": [
-      28
-    ]
+    "maxDelay": 28,
+    "minDelay": 28
   },
   {
     "from": "/rhn/systems/ssm/ListSystems.do",
@@ -6123,12 +5459,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 21,
-    "maxDelay": [
-      21
-    ],
-    "minDelay": [
-      21
-    ]
+    "maxDelay": 21,
+    "minDelay": 21
   },
   {
     "from": "/rhn/systems/details/history/PendingDelete.do",
@@ -6136,12 +5468,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 25,
-    "maxDelay": [
-      25
-    ],
-    "minDelay": [
-      25
-    ]
+    "maxDelay": 25,
+    "minDelay": 25
   },
   {
     "from": "/rhn/systems/details/history/PendingDelete.do",
@@ -6149,12 +5477,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 6,
-    "maxDelay": [
-      6
-    ],
-    "minDelay": [
-      6
-    ]
+    "maxDelay": 6,
+    "minDelay": 6
   },
   {
     "from": "/rhn/systems/details/history/History.do",
@@ -6162,12 +5486,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/systems/details/history/PendingDelete.do",
@@ -6175,12 +5495,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 7,
-    "maxDelay": [
-      7
-    ],
-    "minDelay": [
-      7
-    ]
+    "maxDelay": 7,
+    "minDelay": 7
   },
   {
     "from": "/rhn/systems/details/history/Pending.do",
@@ -6188,12 +5504,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 6,
-    "maxDelay": [
-      6
-    ],
-    "minDelay": [
-      6
-    ]
+    "maxDelay": 6,
+    "minDelay": 6
   },
   {
     "from": "/rhn/systems/details/packages/UpgradableList.do",
@@ -6201,12 +5513,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 318,
-    "maxDelay": [
-      318
-    ],
-    "minDelay": [
-      318
-    ]
+    "maxDelay": 318,
+    "minDelay": 318
   },
   {
     "from": "/rhn/groups/ListRemoveSystems.do",
@@ -6214,12 +5522,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 159,
-    "maxDelay": [
-      159
-    ],
-    "minDelay": [
-      159
-    ]
+    "maxDelay": 159,
+    "minDelay": 159
   },
   {
     "from": "/rhn/software/packages/NameOverview.do",
@@ -6227,12 +5531,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 14,
-    "maxDelay": [
-      14
-    ],
-    "minDelay": [
-      14
-    ]
+    "maxDelay": 14,
+    "minDelay": 14
   },
   {
     "from": "/rhn/errata/AllErrata.do",
@@ -6240,12 +5540,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 35,
-    "maxDelay": [
-      35
-    ],
-    "minDelay": [
-      35
-    ]
+    "maxDelay": 35,
+    "minDelay": 35
   },
   {
     "from": "/rhn/software/channels/Custom.do",
@@ -6253,12 +5549,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 33,
-    "maxDelay": [
-      33
-    ],
-    "minDelay": [
-      33
-    ]
+    "maxDelay": 33,
+    "minDelay": 33
   },
   {
     "from": "/rhn/software/manage/packages/PackageList.do",
@@ -6266,12 +5558,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 10,
-    "maxDelay": [
-      10
-    ],
-    "minDelay": [
-      10
-    ]
+    "maxDelay": 10,
+    "minDelay": 10
   },
   {
     "from": "/rhn/account/UserDetails.do",
@@ -6279,12 +5567,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 18,
-    "maxDelay": [
-      18
-    ],
-    "minDelay": [
-      18
-    ]
+    "maxDelay": 18,
+    "minDelay": 18
   },
   {
     "from": "/rhn/channels/software/Search.do",
@@ -6292,12 +5576,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 150,
-    "maxDelay": [
-      150
-    ],
-    "minDelay": [
-      150
-    ]
+    "maxDelay": 150,
+    "minDelay": 150
   },
   {
     "from": "/rhn/systems/details/Overview.do",
@@ -6305,12 +5585,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 634,
-    "maxDelay": [
-      634
-    ],
-    "minDelay": [
-      634
-    ]
+    "maxDelay": 634,
+    "minDelay": 634
   },
   {
     "from": "/rhn/channels/software/Search.do",
@@ -6318,12 +5594,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2142,
-    "maxDelay": [
-      2142
-    ],
-    "minDelay": [
-      2142
-    ]
+    "maxDelay": 2142,
+    "minDelay": 2142
   },
   {
     "from": "/rhn/systems/ssm/misc/RebootSystem.do",
@@ -6331,12 +5603,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/YourRhn.do#",
@@ -6344,12 +5612,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 17,
-    "maxDelay": [
-      17
-    ],
-    "minDelay": [
-      17
-    ]
+    "maxDelay": 17,
+    "minDelay": 17
   },
   {
     "from": "/rhn/YourRhn.do",
@@ -6357,12 +5621,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 16,
-    "maxDelay": [
-      16
-    ],
-    "minDelay": [
-      16
-    ]
+    "maxDelay": 16,
+    "minDelay": 16
   },
   {
     "from": "/rhn/users/ActiveList.do",
@@ -6370,12 +5630,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/admin/multiorg/Users.do",
@@ -6383,12 +5639,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4039,
-    "maxDelay": [
-      4039
-    ],
-    "minDelay": [
-      4039
-    ]
+    "maxDelay": 4039,
+    "minDelay": 4039
   },
   {
     "from": "/rhn/channel/ssm/ChannelSubscriptions.do",
@@ -6396,12 +5648,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 191,
-    "maxDelay": [
-      191
-    ],
-    "minDelay": [
-      191
-    ]
+    "maxDelay": 191,
+    "minDelay": 191
   },
   {
     "from": "/rhn/channels/ChannelDetail.do",
@@ -6409,12 +5657,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 280,
-    "maxDelay": [
-      280
-    ],
-    "minDelay": [
-      280
-    ]
+    "maxDelay": 280,
+    "minDelay": 280
   },
   {
     "from": "/rhn/channels/ChannelSubscribers.do",
@@ -6422,12 +5666,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 102,
-    "maxDelay": [
-      102
-    ],
-    "minDelay": [
-      102
-    ]
+    "maxDelay": 102,
+    "minDelay": 102
   },
   {
     "from": "/rhn/activationkeys/List.do",
@@ -6435,12 +5675,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 33,
-    "maxDelay": [
-      33
-    ],
-    "minDelay": [
-      33
-    ]
+    "maxDelay": 33,
+    "minDelay": 33
   },
   {
     "from": "/rhn/systems/details/packages/Packages.do",
@@ -6448,12 +5684,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 34,
-    "maxDelay": [
-      34
-    ],
-    "minDelay": [
-      34
-    ]
+    "maxDelay": 34,
+    "minDelay": 34
   },
   {
     "from": "/rhn/software/channels/Vendor.do",
@@ -6461,12 +5693,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 16,
-    "maxDelay": [
-      16
-    ],
-    "minDelay": [
-      16
-    ]
+    "maxDelay": 16,
+    "minDelay": 16
   },
   {
     "from": "/rhn/software/channels/Retired.do",
@@ -6474,12 +5702,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 6,
-    "maxDelay": [
-      6
-    ],
-    "minDelay": [
-      6
-    ]
+    "maxDelay": 6,
+    "minDelay": 6
   },
   {
     "from": "/rhn/channels/ChannelSubscribers.do",
@@ -6487,12 +5711,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 20,
-    "maxDelay": [
-      20
-    ],
-    "minDelay": [
-      20
-    ]
+    "maxDelay": 20,
+    "minDelay": 20
   },
   {
     "from": "/rhn/schedule/InProgressSystems.do",
@@ -6500,12 +5720,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 143,
-    "maxDelay": [
-      143
-    ],
-    "minDelay": [
-      143
-    ]
+    "maxDelay": 143,
+    "minDelay": 143
   },
   {
     "from": "/rhn/ssm/Packages.do",
@@ -6513,12 +5729,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 6,
-    "maxDelay": [
-      6
-    ],
-    "minDelay": [
-      6
-    ]
+    "maxDelay": 6,
+    "minDelay": 6
   },
   {
     "from": "/rhn/systems/ssm/misc/Index.do",
@@ -6526,12 +5738,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/systems/ssm/misc/SoftwareRefresh.do",
@@ -6539,12 +5747,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/systems/ssm/misc/Index.do",
@@ -6552,12 +5756,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 1,
-    "maxDelay": [
-      1
-    ],
-    "minDelay": [
-      1
-    ]
+    "maxDelay": 1,
+    "minDelay": 1
   },
   {
     "from": "/rhn/ssm/Packages.do",
@@ -6565,12 +5765,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/manager/systems/ssm/highstate",
@@ -6578,12 +5774,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 14,
-    "maxDelay": [
-      14
-    ],
-    "minDelay": [
-      14
-    ]
+    "maxDelay": 14,
+    "minDelay": 14
   },
   {
     "from": "/rhn/manager/systems/details/packages",
@@ -6591,12 +5783,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 79,
-    "maxDelay": [
-      79
-    ],
-    "minDelay": [
-      79
-    ]
+    "maxDelay": 79,
+    "minDelay": 79
   },
   {
     "from": "/rhn/ssm/Packages.do",
@@ -6604,12 +5792,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 48,
-    "maxDelay": [
-      48
-    ],
-    "minDelay": [
-      48
-    ]
+    "maxDelay": 48,
+    "minDelay": 48
   },
   {
     "from": "/rhn/activationkeys/packages/Packages.do",
@@ -6617,12 +5801,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/activationkeys/configuration/List.do",
@@ -6630,12 +5810,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/activationkeys/Edit.do",
@@ -6643,12 +5819,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 16,
-    "maxDelay": [
-      16
-    ],
-    "minDelay": [
-      16
-    ]
+    "maxDelay": 16,
+    "minDelay": 16
   },
   {
     "from": "/rhn/systems/details/SystemChannels.do",
@@ -6656,12 +5828,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 124,
-    "maxDelay": [
-      124
-    ],
-    "minDelay": [
-      124
-    ]
+    "maxDelay": 124,
+    "minDelay": 124
   },
   {
     "from": "/rhn/activationkeys/Edit.do",
@@ -6669,12 +5837,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 99,
-    "maxDelay": [
-      99
-    ],
-    "minDelay": [
-      99
-    ]
+    "maxDelay": 99,
+    "minDelay": 99
   },
   {
     "from": "/rhn/schedule/InProgressSystems.do",
@@ -6682,12 +5846,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 96,
-    "maxDelay": [
-      96
-    ],
-    "minDelay": [
-      96
-    ]
+    "maxDelay": 96,
+    "minDelay": 96
   },
   {
     "from": "/rhn/channels/ChannelDetail.do",
@@ -6695,12 +5855,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 11,
-    "maxDelay": [
-      11
-    ],
-    "minDelay": [
-      11
-    ]
+    "maxDelay": 11,
+    "minDelay": 11
   },
   {
     "from": "/rhn/channels/TargetSystems.do",
@@ -6708,12 +5864,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 24,
-    "maxDelay": [
-      24
-    ],
-    "minDelay": [
-      24
-    ]
+    "maxDelay": 24,
+    "minDelay": 24
   },
   {
     "from": "/rhn/channels/TargetSystems.do",
@@ -6721,12 +5873,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/systems/ssm/groups/Manage.do",
@@ -6734,12 +5882,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/ssm/PackageList.do",
@@ -6747,12 +5891,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 10,
-    "maxDelay": [
-      10
-    ],
-    "minDelay": [
-      10
-    ]
+    "maxDelay": 10,
+    "minDelay": 10
   },
   {
     "from": "/rhn/systems/details/SystemChannels.do",
@@ -6760,12 +5900,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 130,
-    "maxDelay": [
-      130
-    ],
-    "minDelay": [
-      130
-    ]
+    "maxDelay": 130,
+    "minDelay": 130
   },
   {
     "from": "/rhn/activationkeys/Edit.do",
@@ -6773,12 +5909,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 952,
-    "maxDelay": [
-      952
-    ],
-    "minDelay": [
-      952
-    ]
+    "maxDelay": 952,
+    "minDelay": 952
   },
   {
     "from": "/rhn/channels/ChannelSubscribers.do",
@@ -6786,12 +5918,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 1717,
-    "maxDelay": [
-      1717
-    ],
-    "minDelay": [
-      1717
-    ]
+    "maxDelay": 1717,
+    "minDelay": 1717
   },
   {
     "from": "/rhn/software/channels/Custom.do",
@@ -6799,12 +5927,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 14,
-    "maxDelay": [
-      14
-    ],
-    "minDelay": [
-      14
-    ]
+    "maxDelay": 14,
+    "minDelay": 14
   },
   {
     "from": "/rhn/channel/ssm/ChannelSubscriptions.do",
@@ -6812,12 +5936,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 67,
-    "maxDelay": [
-      67
-    ],
-    "minDelay": [
-      67
-    ]
+    "maxDelay": 67,
+    "minDelay": 67
   },
   {
     "from": "/rhn/systems/details/ErrataList.do",
@@ -6825,12 +5945,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 8,
-    "maxDelay": [
-      8
-    ],
-    "minDelay": [
-      8
-    ]
+    "maxDelay": 8,
+    "minDelay": 8
   },
   {
     "from": "/rhn/schedule/CompletedSystems.do",
@@ -6838,12 +5954,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 38,
-    "maxDelay": [
-      38
-    ],
-    "minDelay": [
-      38
-    ]
+    "maxDelay": 38,
+    "minDelay": 38
   },
   {
     "from": "/rhn/schedule/CompletedSystems.do",
@@ -6851,12 +5963,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 23,
-    "maxDelay": [
-      23
-    ],
-    "minDelay": [
-      23
-    ]
+    "maxDelay": 23,
+    "minDelay": 23
   },
   {
     "from": "/rhn/channels/ChannelSubscribers.do",
@@ -6864,12 +5972,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 8,
-    "maxDelay": [
-      8
-    ],
-    "minDelay": [
-      8
-    ]
+    "maxDelay": 8,
+    "minDelay": 8
   },
   {
     "from": "/rhn/channels/ChannelSubscribers.do",
@@ -6877,12 +5981,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 203,
-    "maxDelay": [
-      203
-    ],
-    "minDelay": [
-      203
-    ]
+    "maxDelay": 203,
+    "minDelay": 203
   },
   {
     "from": "/rhn/activationkeys/systems/List.do",
@@ -6890,12 +5990,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 7,
-    "maxDelay": [
-      7
-    ],
-    "minDelay": [
-      7
-    ]
+    "maxDelay": 7,
+    "minDelay": 7
   },
   {
     "from": "/rhn/activationkeys/configuration/List.do",
@@ -6903,12 +5999,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 1,
-    "maxDelay": [
-      1
-    ],
-    "minDelay": [
-      1
-    ]
+    "maxDelay": 1,
+    "minDelay": 1
   },
   {
     "from": "/rhn/activationkeys/Edit.do",
@@ -6916,12 +6008,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 356,
-    "maxDelay": [
-      356
-    ],
-    "minDelay": [
-      356
-    ]
+    "maxDelay": 356,
+    "minDelay": 356
   },
   {
     "from": "/rhn/YourRhn.do",
@@ -6929,12 +6017,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 46,
-    "maxDelay": [
-      46
-    ],
-    "minDelay": [
-      46
-    ]
+    "maxDelay": 46,
+    "minDelay": 46
   },
   {
     "from": "/rhn/systems/BootstrapSystemList.do",
@@ -6942,12 +6026,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 14271,
-    "maxDelay": [
-      14271
-    ],
-    "minDelay": [
-      14271
-    ]
+    "maxDelay": 14271,
+    "minDelay": 14271
   },
   {
     "from": "/rhn/YourRhn.do",
@@ -6955,12 +6035,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 13,
-    "maxDelay": [
-      13
-    ],
-    "minDelay": [
-      13
-    ]
+    "maxDelay": 13,
+    "minDelay": 13
   },
   {
     "from": "/rhn/systems/PhysicalList.do",
@@ -6968,12 +6044,8 @@
     "count": 1,
     "reloadCount": 1,
     "averageDelay": 60211,
-    "maxDelay": [
-      60211
-    ],
-    "minDelay": [
-      60211
-    ]
+    "maxDelay": 60211,
+    "minDelay": 60211
   },
   {
     "from": "/rhn/systems/PhysicalList.do",
@@ -6981,12 +6053,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 10,
-    "maxDelay": [
-      10
-    ],
-    "minDelay": [
-      10
-    ]
+    "maxDelay": 10,
+    "minDelay": 10
   },
   {
     "from": "/rhn/systems/SystemList.do",
@@ -6994,12 +6062,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 18,
-    "maxDelay": [
-      18
-    ],
-    "minDelay": [
-      18
-    ]
+    "maxDelay": 18,
+    "minDelay": 18
   },
   {
     "from": "/rhn/schedule/FailedSystems.do",
@@ -7007,12 +6071,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 47,
-    "maxDelay": [
-      47
-    ],
-    "minDelay": [
-      47
-    ]
+    "maxDelay": 47,
+    "minDelay": 47
   },
   {
     "from": "/rhn/ssm/ViewLog.do#",
@@ -7020,12 +6080,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 6,
-    "maxDelay": [
-      6
-    ],
-    "minDelay": [
-      6
-    ]
+    "maxDelay": 6,
+    "minDelay": 6
   },
   {
     "from": "/rhn/ssm/ViewCompletedLog.do",
@@ -7033,12 +6089,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 16,
-    "maxDelay": [
-      16
-    ],
-    "minDelay": [
-      16
-    ]
+    "maxDelay": 16,
+    "minDelay": 16
   },
   {
     "from": "/rhn/ssm/index.do",
@@ -7046,12 +6098,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 9,
-    "maxDelay": [
-      9
-    ],
-    "minDelay": [
-      9
-    ]
+    "maxDelay": 9,
+    "minDelay": 9
   },
   {
     "from": "/rhn/systems/details/virtualization/VirtualGuestsList.do",
@@ -7059,12 +6107,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 189,
-    "maxDelay": [
-      189
-    ],
-    "minDelay": [
-      189
-    ]
+    "maxDelay": 189,
+    "minDelay": 189
   },
   {
     "from": "/rhn/systems/details/virtualization/VirtualGuestsList.do",
@@ -7072,12 +6116,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 38,
-    "maxDelay": [
-      38
-    ],
-    "minDelay": [
-      38
-    ]
+    "maxDelay": 38,
+    "minDelay": 38
   },
   {
     "from": "/rhn/systems/details/history/Event.do",
@@ -7085,12 +6125,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/software/channels/All.do",
@@ -7098,12 +6134,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 92711,
-    "maxDelay": [
-      92711
-    ],
-    "minDelay": [
-      92711
-    ]
+    "maxDelay": 92711,
+    "minDelay": 92711
   },
   {
     "from": "/rhn/systems/details/history/Event.do",
@@ -7111,12 +6143,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 346786,
-    "maxDelay": [
-      346786
-    ],
-    "minDelay": [
-      346786
-    ]
+    "maxDelay": 346786,
+    "minDelay": 346786
   },
   {
     "from": "/rhn/YourRhn.do",
@@ -7124,12 +6152,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 19,
-    "maxDelay": [
-      19
-    ],
-    "minDelay": [
-      19
-    ]
+    "maxDelay": 19,
+    "minDelay": 19
   },
   {
     "from": "/rhn/admin/config/GeneralConfig.do",
@@ -7137,12 +6161,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/admin/config/BootstrapSystems.do",
@@ -7150,12 +6170,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 161293,
-    "maxDelay": [
-      161293
-    ],
-    "minDelay": [
-      161293
-    ]
+    "maxDelay": 161293,
+    "minDelay": 161293
   },
   {
     "from": "/rhn/channels/software/Search.do",
@@ -7163,12 +6179,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2332,
-    "maxDelay": [
-      2332
-    ],
-    "minDelay": [
-      2332
-    ]
+    "maxDelay": 2332,
+    "minDelay": 2332
   },
   {
     "from": "/rhn/systems/details/packages/UpgradableList.do",
@@ -7176,12 +6188,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 10,
-    "maxDelay": [
-      10
-    ],
-    "minDelay": [
-      10
-    ]
+    "maxDelay": 10,
+    "minDelay": 10
   },
   {
     "from": "/rhn/systems/details/packages/InstallPackages.do",
@@ -7189,12 +6197,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/systems/details/packages/PackageList.do",
@@ -7202,12 +6206,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/schedule/PendingActions.do",
@@ -7215,12 +6215,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/systems/ssm/ErrataSystemsAffected.do",
@@ -7228,12 +6224,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 7,
-    "maxDelay": [
-      7
-    ],
-    "minDelay": [
-      7
-    ]
+    "maxDelay": 7,
+    "minDelay": 7
   },
   {
     "from": "/rhn/errata/details/SystemsAffected.do",
@@ -7241,12 +6233,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 9,
-    "maxDelay": [
-      9
-    ],
-    "minDelay": [
-      9
-    ]
+    "maxDelay": 9,
+    "minDelay": 9
   },
   {
     "from": "/rhn/errata/details/ErrataConfirm.do",
@@ -7254,12 +6242,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/errata/RelevantErrata.do",
@@ -7267,12 +6251,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 11,
-    "maxDelay": [
-      11
-    ],
-    "minDelay": [
-      11
-    ]
+    "maxDelay": 11,
+    "minDelay": 11
   },
   {
     "from": "/rhn/ssm/Packages.do",
@@ -7280,12 +6260,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 13,
-    "maxDelay": [
-      13
-    ],
-    "minDelay": [
-      13
-    ]
+    "maxDelay": 13,
+    "minDelay": 13
   },
   {
     "from": "/rhn/systems/details/Overview.do",
@@ -7293,12 +6269,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/systems/details/Overview.do",
@@ -7306,12 +6278,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 1,
-    "maxDelay": [
-      1
-    ],
-    "minDelay": [
-      1
-    ]
+    "maxDelay": 1,
+    "minDelay": 1
   },
   {
     "from": "/rhn/manager/systems/details/packages",
@@ -7319,12 +6287,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 26,
-    "maxDelay": [
-      26
-    ],
-    "minDelay": [
-      26
-    ]
+    "maxDelay": 26,
+    "minDelay": 26
   },
   {
     "from": "/rhn/systems/ssm/ErrataSystemsAffected.do",
@@ -7332,12 +6296,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 104,
-    "maxDelay": [
-      104
-    ],
-    "minDelay": [
-      104
-    ]
+    "maxDelay": 104,
+    "minDelay": 104
   },
   {
     "from": "/rhn/systems/ssm/ListErrata.do",
@@ -7345,12 +6305,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 373,
-    "maxDelay": [
-      373
-    ],
-    "minDelay": [
-      373
-    ]
+    "maxDelay": 373,
+    "minDelay": 373
   },
   {
     "from": "/rhn/YourRhn.do",
@@ -7358,12 +6314,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 11,
-    "maxDelay": [
-      11
-    ],
-    "minDelay": [
-      11
-    ]
+    "maxDelay": 11,
+    "minDelay": 11
   },
   {
     "from": "/rhn/systems/details/packages/Packages.do",
@@ -7371,12 +6323,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 17,
-    "maxDelay": [
-      17
-    ],
-    "minDelay": [
-      17
-    ]
+    "maxDelay": 17,
+    "minDelay": 17
   },
   {
     "from": "/rhn/systems/SystemGroupList.do",
@@ -7384,12 +6332,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 6,
-    "maxDelay": [
-      6
-    ],
-    "minDelay": [
-      6
-    ]
+    "maxDelay": 6,
+    "minDelay": 6
   },
   {
     "from": "/rhn/systems/Registered.do",
@@ -7397,12 +6341,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 6,
-    "maxDelay": [
-      6
-    ],
-    "minDelay": [
-      6
-    ]
+    "maxDelay": 6,
+    "minDelay": 6
   },
   {
     "from": "/rhn/systems/ssm/ListErrata.do",
@@ -7410,12 +6350,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 12,
-    "maxDelay": [
-      12
-    ],
-    "minDelay": [
-      12
-    ]
+    "maxDelay": 12,
+    "minDelay": 12
   },
   {
     "from": "/rhn/manager/systems/ssm/highstate",
@@ -7423,12 +6359,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/systems/ssm/misc/Index.do",
@@ -7436,12 +6368,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 189554,
-    "maxDelay": [
-      189554
-    ],
-    "minDelay": [
-      189554
-    ]
+    "maxDelay": 189554,
+    "minDelay": 189554
   },
   {
     "from": "/rhn/manager/systems/ssm/highstate",
@@ -7449,12 +6377,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 15016,
-    "maxDelay": [
-      15016
-    ],
-    "minDelay": [
-      15016
-    ]
+    "maxDelay": 15016,
+    "minDelay": 15016
   },
   {
     "from": "/rhn/admin/setup/MirrorCredentials.do",
@@ -7462,12 +6386,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 58,
-    "maxDelay": [
-      58
-    ],
-    "minDelay": [
-      58
-    ]
+    "maxDelay": 58,
+    "minDelay": 58
   },
   {
     "from": "/rhn/systems/details/packages/PackageList.do",
@@ -7475,12 +6395,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/groups/ListErrata.do",
@@ -7488,12 +6404,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 27,
-    "maxDelay": [
-      27
-    ],
-    "minDelay": [
-      27
-    ]
+    "maxDelay": 27,
+    "minDelay": 27
   },
   {
     "from": "/rhn/systems/Overview.do",
@@ -7501,12 +6413,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 95,
-    "maxDelay": [
-      95
-    ],
-    "minDelay": [
-      95
-    ]
+    "maxDelay": 95,
+    "minDelay": 95
   },
   {
     "from": "/rhn/systems/details/Overview.do",
@@ -7514,12 +6422,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/systems/details/history/Event.do",
@@ -7527,12 +6431,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 8,
-    "maxDelay": [
-      8
-    ],
-    "minDelay": [
-      8
-    ]
+    "maxDelay": 8,
+    "minDelay": 8
   },
   {
     "from": "/rhn/systems/ssm/ListSystems.do",
@@ -7540,12 +6440,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 10,
-    "maxDelay": [
-      10
-    ],
-    "minDelay": [
-      10
-    ]
+    "maxDelay": 10,
+    "minDelay": 10
   },
   {
     "from": "/rhn/schedule/CompletedActions.do",
@@ -7553,12 +6449,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 7,
-    "maxDelay": [
-      7
-    ],
-    "minDelay": [
-      7
-    ]
+    "maxDelay": 7,
+    "minDelay": 7
   },
   {
     "from": "/rhn/schedule/InProgressSystems.do",
@@ -7566,12 +6458,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 232,
-    "maxDelay": [
-      232
-    ],
-    "minDelay": [
-      232
-    ]
+    "maxDelay": 232,
+    "minDelay": 232
   },
   {
     "from": "/rhn/YourRhn.do",
@@ -7579,12 +6467,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 63,
-    "maxDelay": [
-      63
-    ],
-    "minDelay": [
-      63
-    ]
+    "maxDelay": 63,
+    "minDelay": 63
   },
   {
     "from": "/rhn/systems/SystemList.do",
@@ -7592,12 +6476,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 24,
-    "maxDelay": [
-      24
-    ],
-    "minDelay": [
-      24
-    ]
+    "maxDelay": 24,
+    "minDelay": 24
   },
   {
     "from": "/rhn/software/packages/Details.do",
@@ -7605,12 +6485,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 20,
-    "maxDelay": [
-      20
-    ],
-    "minDelay": [
-      20
-    ]
+    "maxDelay": 20,
+    "minDelay": 20
   },
   {
     "from": "/rhn/software/packages/ChangeLog.do",
@@ -7618,12 +6494,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 9,
-    "maxDelay": [
-      9
-    ],
-    "minDelay": [
-      9
-    ]
+    "maxDelay": 9,
+    "minDelay": 9
   },
   {
     "from": "/rhn/software/packages/TargetSystems.do",
@@ -7631,12 +6503,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 20,
-    "maxDelay": [
-      20
-    ],
-    "minDelay": [
-      20
-    ]
+    "maxDelay": 20,
+    "minDelay": 20
   },
   {
     "from": "/rhn/software/packages/Details.do",
@@ -7644,12 +6512,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/software/packages/InstalledSystems.do",
@@ -7657,12 +6521,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 12,
-    "maxDelay": [
-      12
-    ],
-    "minDelay": [
-      12
-    ]
+    "maxDelay": 12,
+    "minDelay": 12
   },
   {
     "from": "/rhn/software/packages/Details.do",
@@ -7670,12 +6530,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/software/packages/TargetSystems.do",
@@ -7683,12 +6539,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 29,
-    "maxDelay": [
-      29
-    ],
-    "minDelay": [
-      29
-    ]
+    "maxDelay": 29,
+    "minDelay": 29
   },
   {
     "from": "/rhn/systems/details/packages/UpgradableList.do",
@@ -7696,12 +6548,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/software/packages/TargetSystems.do",
@@ -7709,12 +6557,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 21,
-    "maxDelay": [
-      21
-    ],
-    "minDelay": [
-      21
-    ]
+    "maxDelay": 21,
+    "minDelay": 21
   },
   {
     "from": "/rhn/systems/Search.do",
@@ -7722,12 +6566,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 17,
-    "maxDelay": [
-      17
-    ],
-    "minDelay": [
-      17
-    ]
+    "maxDelay": 17,
+    "minDelay": 17
   },
   {
     "from": "/rhn/systems/DuplicateIPList.do",
@@ -7735,12 +6575,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 85961,
-    "maxDelay": [
-      85961
-    ],
-    "minDelay": [
-      85961
-    ]
+    "maxDelay": 85961,
+    "minDelay": 85961
   },
   {
     "from": "/rhn/manager/admin/setup/products",
@@ -7748,12 +6584,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 88579,
-    "maxDelay": [
-      88579
-    ],
-    "minDelay": [
-      88579
-    ]
+    "maxDelay": 88579,
+    "minDelay": 88579
   },
   {
     "from": "/rhn/YourRhn.do",
@@ -7761,12 +6593,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 24,
-    "maxDelay": [
-      24
-    ],
-    "minDelay": [
-      24
-    ]
+    "maxDelay": 24,
+    "minDelay": 24
   },
   {
     "from": "/rhn/channels/manage/Manage.do",
@@ -7774,12 +6602,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 56,
-    "maxDelay": [
-      56
-    ],
-    "minDelay": [
-      56
-    ]
+    "maxDelay": 56,
+    "minDelay": 56
   },
   {
     "from": "/rhn/channels/manage/ChannelPackages.do",
@@ -7787,12 +6611,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 9,
-    "maxDelay": [
-      9
-    ],
-    "minDelay": [
-      9
-    ]
+    "maxDelay": 9,
+    "minDelay": 9
   },
   {
     "from": "/rhn/channels/ChannelSubscribers.do",
@@ -7800,12 +6620,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 430291,
-    "maxDelay": [
-      430291
-    ],
-    "minDelay": [
-      430291
-    ]
+    "maxDelay": 430291,
+    "minDelay": 430291
   },
   {
     "from": "/rhn/channels/ChannelDetail.do",
@@ -7813,12 +6629,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 62,
-    "maxDelay": [
-      62
-    ],
-    "minDelay": [
-      62
-    ]
+    "maxDelay": 62,
+    "minDelay": 62
   },
   {
     "from": "/rhn/manager/systems/details/packages",
@@ -7826,12 +6638,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 63,
-    "maxDelay": [
-      63
-    ],
-    "minDelay": [
-      63
-    ]
+    "maxDelay": 63,
+    "minDelay": 63
   },
   {
     "from": "/rhn/systems/details/packages/profiles/MissingPackages.do",
@@ -7839,12 +6647,8 @@
     "count": 1,
     "reloadCount": 1,
     "averageDelay": 61,
-    "maxDelay": [
-      61
-    ],
-    "minDelay": [
-      61
-    ]
+    "maxDelay": 61,
+    "minDelay": 61
   },
   {
     "from": "/rhn/systems/details/packages/profiles/MissingPackageSubmit.do",
@@ -7852,12 +6656,8 @@
     "count": 1,
     "reloadCount": 1,
     "averageDelay": 11,
-    "maxDelay": [
-      11
-    ],
-    "minDelay": [
-      11
-    ]
+    "maxDelay": 11,
+    "minDelay": 11
   },
   {
     "from": "/rhn/systems/details/packages/profiles/MissingPackageSubmit.do",
@@ -7865,12 +6665,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2381,
-    "maxDelay": [
-      2381
-    ],
-    "minDelay": [
-      2381
-    ]
+    "maxDelay": 2381,
+    "minDelay": 2381
   },
   {
     "from": "/rhn/systems/details/packages/profiles/MissingPackageSubmit.do",
@@ -7878,12 +6674,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5576,
-    "maxDelay": [
-      5576
-    ],
-    "minDelay": [
-      5576
-    ]
+    "maxDelay": 5576,
+    "minDelay": 5576
   },
   {
     "from": "/rhn/systems/details/packages/profiles/SyncSystems.do",
@@ -7891,12 +6683,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/systems/details/packages/profiles/SyncSystems.do",
@@ -7904,12 +6692,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 13,
-    "maxDelay": [
-      13
-    ],
-    "minDelay": [
-      13
-    ]
+    "maxDelay": 13,
+    "minDelay": 13
   },
   {
     "from": "/rhn/software/packages/ChangeLog.do",
@@ -7917,12 +6701,8 @@
     "count": 1,
     "reloadCount": 1,
     "averageDelay": 331323,
-    "maxDelay": [
-      331323
-    ],
-    "minDelay": [
-      331323
-    ]
+    "maxDelay": 331323,
+    "minDelay": 331323
   },
   {
     "from": "/rhn/software/packages/ChangeLog.do",
@@ -7930,12 +6710,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 222,
-    "maxDelay": [
-      222
-    ],
-    "minDelay": [
-      222
-    ]
+    "maxDelay": 222,
+    "minDelay": 222
   },
   {
     "from": "/rhn/systems/details/Overview.do",
@@ -7943,12 +6719,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/systems/details/packages/InstallPackages.do",
@@ -7956,12 +6728,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 581318,
-    "maxDelay": [
-      581318
-    ],
-    "minDelay": [
-      581318
-    ]
+    "maxDelay": 581318,
+    "minDelay": 581318
   },
   {
     "from": "/rhn/systems/SystemGroupList.do",
@@ -7969,12 +6737,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2593949,
-    "maxDelay": [
-      2593949
-    ],
-    "minDelay": [
-      2593949
-    ]
+    "maxDelay": 2593949,
+    "minDelay": 2593949
   },
   {
     "from": "/rhn/schedule/InProgressSystems.do",
@@ -7982,12 +6746,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 987,
-    "maxDelay": [
-      987
-    ],
-    "minDelay": [
-      987
-    ]
+    "maxDelay": 987,
+    "minDelay": 987
   },
   {
     "from": "/rhn/systems/ssm/misc/Index.do",
@@ -7995,12 +6755,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/systems/ssm/misc/RebootSystem.do",
@@ -8008,12 +6764,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 88,
-    "maxDelay": [
-      88
-    ],
-    "minDelay": [
-      88
-    ]
+    "maxDelay": 88,
+    "minDelay": 88
   },
   {
     "from": "/rhn/systems/Overview.do",
@@ -8021,12 +6773,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/systems/details/history/Pending.do",
@@ -8034,12 +6782,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/ssm/index.do",
@@ -8047,12 +6791,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/systems/SystemGroupList.do",
@@ -8060,12 +6800,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/systems/ssm/misc/RebootSystem.do",
@@ -8073,12 +6809,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 10,
-    "maxDelay": [
-      10
-    ],
-    "minDelay": [
-      10
-    ]
+    "maxDelay": 10,
+    "minDelay": 10
   },
   {
     "from": "/rhn/systems/details/history/Pending.do",
@@ -8086,12 +6818,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/systems/SystemList.do",
@@ -8099,12 +6827,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 43,
-    "maxDelay": [
-      43
-    ],
-    "minDelay": [
-      43
-    ]
+    "maxDelay": 43,
+    "minDelay": 43
   },
   {
     "from": "/pub/repositories/sle/12/4/bootstrap/repodata/repomd.xml",
@@ -8112,12 +6836,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 787,
-    "maxDelay": [
-      787
-    ],
-    "minDelay": [
-      787
-    ]
+    "maxDelay": 787,
+    "minDelay": 787
   },
   {
     "from": "/pub/repositories/sle/12/4/bootstrap/repodata/",
@@ -8125,12 +6845,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/pub/repositories/sle/12/4/bootstrap/",
@@ -8138,12 +6854,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 6,
-    "maxDelay": [
-      6
-    ],
-    "minDelay": [
-      6
-    ]
+    "maxDelay": 6,
+    "minDelay": 6
   },
   {
     "from": "/pub/repositories/sle/12/4/",
@@ -8151,12 +6863,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 7,
-    "maxDelay": [
-      7
-    ],
-    "minDelay": [
-      7
-    ]
+    "maxDelay": 7,
+    "minDelay": 7
   },
   {
     "from": "/rhn/channel/ssm/ChannelSubscriptions.do",
@@ -8164,12 +6872,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 156,
-    "maxDelay": [
-      156
-    ],
-    "minDelay": [
-      156
-    ]
+    "maxDelay": 156,
+    "minDelay": 156
   },
   {
     "from": "/rhn/systems/SystemList.do",
@@ -8177,12 +6881,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 1009,
-    "maxDelay": [
-      1009
-    ],
-    "minDelay": [
-      1009
-    ]
+    "maxDelay": 1009,
+    "minDelay": 1009
   },
   {
     "from": "/rhn/ssm/ViewAllLog.do",
@@ -8190,12 +6890,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 15,
-    "maxDelay": [
-      15
-    ],
-    "minDelay": [
-      15
-    ]
+    "maxDelay": 15,
+    "minDelay": 15
   },
   {
     "from": "/rhn/schedule/PendingActionsDeleteConfirm.do",
@@ -8203,12 +6899,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/schedule/PackageList.do",
@@ -8216,12 +6908,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/schedule/CompletedSystems.do",
@@ -8229,12 +6917,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 54,
-    "maxDelay": [
-      54
-    ],
-    "minDelay": [
-      54
-    ]
+    "maxDelay": 54,
+    "minDelay": 54
   },
   {
     "from": "/rhn/systems/details/history/Event.do",
@@ -8242,12 +6926,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 12,
-    "maxDelay": [
-      12
-    ],
-    "minDelay": [
-      12
-    ]
+    "maxDelay": 12,
+    "minDelay": 12
   },
   {
     "from": "/rhn/account/UserDetails.do",
@@ -8255,12 +6935,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 42,
-    "maxDelay": [
-      42
-    ],
-    "minDelay": [
-      42
-    ]
+    "maxDelay": 42,
+    "minDelay": 42
   },
   {
     "from": "/rhn/channel/ssm/ChannelSubscriptions.do",
@@ -8268,12 +6944,8 @@
     "count": 1,
     "reloadCount": 1,
     "averageDelay": 203,
-    "maxDelay": [
-      203
-    ],
-    "minDelay": [
-      203
-    ]
+    "maxDelay": 203,
+    "minDelay": 203
   },
   {
     "from": "/rhn/systems/ssm/config/Subscribe.do",
@@ -8281,12 +6953,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 13,
-    "maxDelay": [
-      13
-    ],
-    "minDelay": [
-      13
-    ]
+    "maxDelay": 13,
+    "minDelay": 13
   },
   {
     "from": "/rhn/systems/ssm/config/Rank.do",
@@ -8294,12 +6962,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 14,
-    "maxDelay": [
-      14
-    ],
-    "minDelay": [
-      14
-    ]
+    "maxDelay": 14,
+    "minDelay": 14
   },
   {
     "from": "/rhn/systems/ssm/config/SubscribeConfirm.do",
@@ -8307,12 +6971,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 20,
-    "maxDelay": [
-      20
-    ],
-    "minDelay": [
-      20
-    ]
+    "maxDelay": 20,
+    "minDelay": 20
   },
   {
     "from": "/rhn/schedule/ActionDetails.do",
@@ -8320,12 +6980,8 @@
     "count": 1,
     "reloadCount": 1,
     "averageDelay": 86,
-    "maxDelay": [
-      86
-    ],
-    "minDelay": [
-      86
-    ]
+    "maxDelay": 86,
+    "minDelay": 86
   },
   {
     "from": "/rhn/ssm/ViewLog.do",
@@ -8333,12 +6989,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 143,
-    "maxDelay": [
-      143
-    ],
-    "minDelay": [
-      143
-    ]
+    "maxDelay": 143,
+    "minDelay": 143
   },
   {
     "from": "/rhn/systems/SystemList.do",
@@ -8346,12 +6998,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 404,
-    "maxDelay": [
-      404
-    ],
-    "minDelay": [
-      404
-    ]
+    "maxDelay": 404,
+    "minDelay": 404
   },
   {
     "from": "/rhn/groups/GroupDetail.do",
@@ -8359,12 +7007,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 18,
-    "maxDelay": [
-      18
-    ],
-    "minDelay": [
-      18
-    ]
+    "maxDelay": 18,
+    "minDelay": 18
   },
   {
     "from": "/rhn/groups/GroupDetail.do",
@@ -8372,12 +7016,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5947,
-    "maxDelay": [
-      5947
-    ],
-    "minDelay": [
-      5947
-    ]
+    "maxDelay": 5947,
+    "minDelay": 5947
   },
   {
     "from": "/rhn/systems/ssm/config/Subscribe.do",
@@ -8385,12 +7025,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 17,
-    "maxDelay": [
-      17
-    ],
-    "minDelay": [
-      17
-    ]
+    "maxDelay": 17,
+    "minDelay": 17
   },
   {
     "from": "/rhn/systems/ssm/config/Subscribe.do",
@@ -8398,12 +7034,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/ssm/index.do",
@@ -8411,12 +7043,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/systems/ssm/config/Diff.do",
@@ -8424,12 +7052,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/ssm/index.do",
@@ -8437,12 +7061,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/systems/ssm/config/Deploy.do",
@@ -8450,12 +7070,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/channel/ssm/ChannelSubscriptions.do",
@@ -8463,12 +7079,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 602598,
-    "maxDelay": [
-      602598
-    ],
-    "minDelay": [
-      602598
-    ]
+    "maxDelay": 602598,
+    "minDelay": 602598
   },
   {
     "from": "/rhn/account/UserDetails.do",
@@ -8476,12 +7088,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2516364,
-    "maxDelay": [
-      2516364
-    ],
-    "minDelay": [
-      2516364
-    ]
+    "maxDelay": 2516364,
+    "minDelay": 2516364
   },
   {
     "from": "/rhn/systems/ssm/ListErrataConfirm.do",
@@ -8489,12 +7097,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 7,
-    "maxDelay": [
-      7
-    ],
-    "minDelay": [
-      7
-    ]
+    "maxDelay": 7,
+    "minDelay": 7
   },
   {
     "from": "/rhn/schedule/InProgressSystems.do",
@@ -8502,12 +7106,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 23,
-    "maxDelay": [
-      23
-    ],
-    "minDelay": [
-      23
-    ]
+    "maxDelay": 23,
+    "minDelay": 23
   },
   {
     "from": "/rhn/systems/SystemList.do",
@@ -8515,12 +7115,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 12,
-    "maxDelay": [
-      12
-    ],
-    "minDelay": [
-      12
-    ]
+    "maxDelay": 12,
+    "minDelay": 12
   },
   {
     "from": "/rhn/errata/details/Details.do",
@@ -8528,12 +7124,8 @@
     "count": 1,
     "reloadCount": 1,
     "averageDelay": 50,
-    "maxDelay": [
-      50
-    ],
-    "minDelay": [
-      50
-    ]
+    "maxDelay": 50,
+    "minDelay": 50
   },
   {
     "from": "/rhn/errata/details/Details.do",
@@ -8541,12 +7133,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 8,
-    "maxDelay": [
-      8
-    ],
-    "minDelay": [
-      8
-    ]
+    "maxDelay": 8,
+    "minDelay": 8
   },
   {
     "from": "/rhn/systems/details/SystemChannels.do",
@@ -8554,12 +7142,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 20,
-    "maxDelay": [
-      20
-    ],
-    "minDelay": [
-      20
-    ]
+    "maxDelay": 20,
+    "minDelay": 20
   },
   {
     "from": "/rhn/manager/systems/details/packages",
@@ -8567,12 +7151,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 42,
-    "maxDelay": [
-      42
-    ],
-    "minDelay": [
-      42
-    ]
+    "maxDelay": 42,
+    "minDelay": 42
   },
   {
     "from": "/rhn/activationkeys/groups/List.do",
@@ -8580,12 +7160,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/activationkeys/groups/Add.do",
@@ -8593,12 +7169,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 15,
-    "maxDelay": [
-      15
-    ],
-    "minDelay": [
-      15
-    ]
+    "maxDelay": 15,
+    "minDelay": 15
   },
   {
     "from": "/rhn/activationkeys/groups/List.do",
@@ -8606,12 +7178,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 430,
-    "maxDelay": [
-      430
-    ],
-    "minDelay": [
-      430
-    ]
+    "maxDelay": 430,
+    "minDelay": 430
   },
   {
     "from": "/rhn/groups/ListRemoveSystems.do",
@@ -8619,12 +7187,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 36,
-    "maxDelay": [
-      36
-    ],
-    "minDelay": [
-      36
-    ]
+    "maxDelay": 36,
+    "minDelay": 36
   },
   {
     "from": "/rhn/ssm/ViewAllLog.do",
@@ -8632,12 +7196,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/ssm/ViewAllLog.do",
@@ -8645,12 +7205,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 21,
-    "maxDelay": [
-      21
-    ],
-    "minDelay": [
-      21
-    ]
+    "maxDelay": 21,
+    "minDelay": 21
   },
   {
     "from": "/rhn/systems/details/history/History.do",
@@ -8658,12 +7214,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 45,
-    "maxDelay": [
-      45
-    ],
-    "minDelay": [
-      45
-    ]
+    "maxDelay": 45,
+    "minDelay": 45
   },
   {
     "from": "/rhn/groups/GroupDetail.do",
@@ -8671,12 +7223,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 24,
-    "maxDelay": [
-      24
-    ],
-    "minDelay": [
-      24
-    ]
+    "maxDelay": 24,
+    "minDelay": 24
   },
   {
     "from": "/rhn/manager/systems/keys",
@@ -8684,12 +7232,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 105,
-    "maxDelay": [
-      105
-    ],
-    "minDelay": [
-      105
-    ]
+    "maxDelay": 105,
+    "minDelay": 105
   },
   {
     "from": "/rhn/schedule/CompletedSystems.do",
@@ -8697,12 +7241,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 541,
-    "maxDelay": [
-      541
-    ],
-    "minDelay": [
-      541
-    ]
+    "maxDelay": 541,
+    "minDelay": 541
   },
   {
     "from": "/rhn/manager/systems/ssm/highstate",
@@ -8710,12 +7250,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 21,
-    "maxDelay": [
-      21
-    ],
-    "minDelay": [
-      21
-    ]
+    "maxDelay": 21,
+    "minDelay": 21
   },
   {
     "from": "/rhn/systems/ssm/provisioning/PowerManagementConfiguration.do",
@@ -8723,12 +7259,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 20,
-    "maxDelay": [
-      20
-    ],
-    "minDelay": [
-      20
-    ]
+    "maxDelay": 20,
+    "minDelay": 20
   },
   {
     "from": "/rhn/ssm/Packages.do",
@@ -8736,12 +7268,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 9,
-    "maxDelay": [
-      9
-    ],
-    "minDelay": [
-      9
-    ]
+    "maxDelay": 9,
+    "minDelay": 9
   },
   {
     "from": "/rhn/YourRhn.do",
@@ -8749,12 +7277,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 16,
-    "maxDelay": [
-      16
-    ],
-    "minDelay": [
-      16
-    ]
+    "maxDelay": 16,
+    "minDelay": 16
   },
   {
     "from": "/rhn/ssm/PackageUpgrade.do",
@@ -8762,12 +7286,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 21,
-    "maxDelay": [
-      21
-    ],
-    "minDelay": [
-      21
-    ]
+    "maxDelay": 21,
+    "minDelay": 21
   },
   {
     "from": "/rhn/schedule/CompletedActions.do",
@@ -8775,12 +7295,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 149,
-    "maxDelay": [
-      149
-    ],
-    "minDelay": [
-      149
-    ]
+    "maxDelay": 149,
+    "minDelay": 149
   },
   {
     "from": "/rhn/systems/details/RebootSystem.do",
@@ -8788,12 +7304,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 6,
-    "maxDelay": [
-      6
-    ],
-    "minDelay": [
-      6
-    ]
+    "maxDelay": 6,
+    "minDelay": 6
   },
   {
     "from": "/rhn/systems/ssm/ListErrata.do",
@@ -8801,12 +7313,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 9,
-    "maxDelay": [
-      9
-    ],
-    "minDelay": [
-      9
-    ]
+    "maxDelay": 9,
+    "minDelay": 9
   },
   {
     "from": "/rhn/schedule/PackageList.do",
@@ -8814,12 +7322,8 @@
     "count": 1,
     "reloadCount": 1,
     "averageDelay": 9,
-    "maxDelay": [
-      9
-    ],
-    "minDelay": [
-      9
-    ]
+    "maxDelay": 9,
+    "minDelay": 9
   },
   {
     "from": "/rhn/schedule/PackageList.do",
@@ -8827,12 +7331,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 15,
-    "maxDelay": [
-      15
-    ],
-    "minDelay": [
-      15
-    ]
+    "maxDelay": 15,
+    "minDelay": 15
   },
   {
     "from": "/rhn/ssm/ViewLogDetails.do",
@@ -8840,12 +7340,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 14,
-    "maxDelay": [
-      14
-    ],
-    "minDelay": [
-      14
-    ]
+    "maxDelay": 14,
+    "minDelay": 14
   },
   {
     "from": "/rhn/schedule/CompletedActions.do",
@@ -8853,12 +7349,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 11,
-    "maxDelay": [
-      11
-    ],
-    "minDelay": [
-      11
-    ]
+    "maxDelay": 11,
+    "minDelay": 11
   },
   {
     "from": "/rhn/schedule/CompletedSystems.do",
@@ -8866,12 +7358,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4,
-    "maxDelay": [
-      4
-    ],
-    "minDelay": [
-      4
-    ]
+    "maxDelay": 4,
+    "minDelay": 4
   },
   {
     "from": "/rhn/systems/ssm/misc/RebootSystemConfirm.do",
@@ -8879,12 +7367,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 143,
-    "maxDelay": [
-      143
-    ],
-    "minDelay": [
-      143
-    ]
+    "maxDelay": 143,
+    "minDelay": 143
   },
   {
     "from": "/rhn/systems/details/SPMigration.do",
@@ -8892,12 +7376,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 12,
-    "maxDelay": [
-      12
-    ],
-    "minDelay": [
-      12
-    ]
+    "maxDelay": 12,
+    "minDelay": 12
   },
   {
     "from": "/rhn/manager/systems/details/highstate",
@@ -8905,12 +7385,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 14,
-    "maxDelay": [
-      14
-    ],
-    "minDelay": [
-      14
-    ]
+    "maxDelay": 14,
+    "minDelay": 14
   },
   {
     "from": "/rhn/systems/details/SPMigration.do",
@@ -8918,12 +7394,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/ssm/PackageRemove.do",
@@ -8931,12 +7403,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 38,
-    "maxDelay": [
-      38
-    ],
-    "minDelay": [
-      38
-    ]
+    "maxDelay": 38,
+    "minDelay": 38
   },
   {
     "from": "/rhn/systems/details/packages/PackageList.do",
@@ -8944,12 +7412,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 15,
-    "maxDelay": [
-      15
-    ],
-    "minDelay": [
-      15
-    ]
+    "maxDelay": 15,
+    "minDelay": 15
   },
   {
     "from": "/rhn/systems/details/history/Pending.do",
@@ -8957,12 +7421,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 11,
-    "maxDelay": [
-      11
-    ],
-    "minDelay": [
-      11
-    ]
+    "maxDelay": 11,
+    "minDelay": 11
   },
   {
     "from": "/rhn/systems/details/configuration/Overview.do",
@@ -8970,12 +7430,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 28,
-    "maxDelay": [
-      28
-    ],
-    "minDelay": [
-      28
-    ]
+    "maxDelay": 28,
+    "minDelay": 28
   },
   {
     "from": "/rhn/systems/details/configuration/DiffFileConfirm.do",
@@ -8983,12 +7439,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 10,
-    "maxDelay": [
-      10
-    ],
-    "minDelay": [
-      10
-    ]
+    "maxDelay": 10,
+    "minDelay": 10
   },
   {
     "from": "/rhn/systems/details/packages/profiles/CompareSystems.do",
@@ -8996,12 +7448,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 52,
-    "maxDelay": [
-      52
-    ],
-    "minDelay": [
-      52
-    ]
+    "maxDelay": 52,
+    "minDelay": 52
   },
   {
     "from": "/rhn/systems/details/packages/PackageList.do",
@@ -9009,12 +7457,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 250,
-    "maxDelay": [
-      250
-    ],
-    "minDelay": [
-      250
-    ]
+    "maxDelay": 250,
+    "minDelay": 250
   },
   {
     "from": "/rhn/manager/systems/details/packages",
@@ -9022,12 +7466,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 10,
-    "maxDelay": [
-      10
-    ],
-    "minDelay": [
-      10
-    ]
+    "maxDelay": 10,
+    "minDelay": 10
   },
   {
     "from": "/rhn/manager/systems/details/custom",
@@ -9035,12 +7475,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 32,
-    "maxDelay": [
-      32
-    ],
-    "minDelay": [
-      32
-    ]
+    "maxDelay": 32,
+    "minDelay": 32
   },
   {
     "from": "/rhn/systems/details/packages/profiles/CompareSystems.do",
@@ -9048,12 +7484,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 840,
-    "maxDelay": [
-      840
-    ],
-    "minDelay": [
-      840
-    ]
+    "maxDelay": 840,
+    "minDelay": 840
   },
   {
     "from": "/rhn/systems/details/kickstart/PowerManagement.do",
@@ -9061,12 +7493,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 77388,
-    "maxDelay": [
-      77388
-    ],
-    "minDelay": [
-      77388
-    ]
+    "maxDelay": 77388,
+    "minDelay": 77388
   },
   {
     "from": "/rhn/systems/ssm/ListErrata.do",
@@ -9074,12 +7502,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 11,
-    "maxDelay": [
-      11
-    ],
-    "minDelay": [
-      11
-    ]
+    "maxDelay": 11,
+    "minDelay": 11
   },
   {
     "from": "/rhn/schedule/FailedActions.do",
@@ -9087,12 +7511,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 16,
-    "maxDelay": [
-      16
-    ],
-    "minDelay": [
-      16
-    ]
+    "maxDelay": 16,
+    "minDelay": 16
   },
   {
     "from": "/rhn/ssm/PackageUpgrade.do",
@@ -9100,12 +7520,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 30,
-    "maxDelay": [
-      30
-    ],
-    "minDelay": [
-      30
-    ]
+    "maxDelay": 30,
+    "minDelay": 30
   },
   {
     "from": "/rhn/schedule/InProgressSystems.do",
@@ -9113,12 +7529,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 3,
-    "maxDelay": [
-      3
-    ],
-    "minDelay": [
-      3
-    ]
+    "maxDelay": 3,
+    "minDelay": 3
   },
   {
     "from": "/rhn/schedule/PackageList.do",
@@ -9126,12 +7538,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 19,
-    "maxDelay": [
-      19
-    ],
-    "minDelay": [
-      19
-    ]
+    "maxDelay": 19,
+    "minDelay": 19
   },
   {
     "from": "/rhn/schedule/CompletedSystems.do",
@@ -9139,12 +7547,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 4240,
-    "maxDelay": [
-      4240
-    ],
-    "minDelay": [
-      4240
-    ]
+    "maxDelay": 4240,
+    "minDelay": 4240
   },
   {
     "from": "/rhn/schedule/InProgressSystems.do",
@@ -9152,12 +7556,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/systems/details/packages/UpgradableList.do",
@@ -9165,12 +7565,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 5,
-    "maxDelay": [
-      5
-    ],
-    "minDelay": [
-      5
-    ]
+    "maxDelay": 5,
+    "minDelay": 5
   },
   {
     "from": "/rhn/ssm/ViewLog.do",
@@ -9178,12 +7574,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/ssm/ViewLogDetails.do",
@@ -9191,12 +7583,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 12,
-    "maxDelay": [
-      12
-    ],
-    "minDelay": [
-      12
-    ]
+    "maxDelay": 12,
+    "minDelay": 12
   },
   {
     "from": "/rhn/ssm/ViewCompletedLog.do",
@@ -9204,12 +7592,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 482,
-    "maxDelay": [
-      482
-    ],
-    "minDelay": [
-      482
-    ]
+    "maxDelay": 482,
+    "minDelay": 482
   },
   {
     "from": "/rhn/schedule/ActionDetails.do",
@@ -9217,12 +7601,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 10,
-    "maxDelay": [
-      10
-    ],
-    "minDelay": [
-      10
-    ]
+    "maxDelay": 10,
+    "minDelay": 10
   },
   {
     "from": "/rhn/schedule/PackageList.do",
@@ -9230,12 +7610,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 2,
-    "maxDelay": [
-      2
-    ],
-    "minDelay": [
-      2
-    ]
+    "maxDelay": 2,
+    "minDelay": 2
   },
   {
     "from": "/rhn/systems/details/history/Event.do",
@@ -9243,12 +7619,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 24,
-    "maxDelay": [
-      24
-    ],
-    "minDelay": [
-      24
-    ]
+    "maxDelay": 24,
+    "minDelay": 24
   },
   {
     "from": "/rhn/schedule/CompletedActions.do",
@@ -9256,12 +7628,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 158,
-    "maxDelay": [
-      158
-    ],
-    "minDelay": [
-      158
-    ]
+    "maxDelay": 158,
+    "minDelay": 158
   },
   {
     "from": "/rhn/channel/ssm/ChannelSubscriptions.do",
@@ -9269,12 +7637,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 21,
-    "maxDelay": [
-      21
-    ],
-    "minDelay": [
-      21
-    ]
+    "maxDelay": 21,
+    "minDelay": 21
   },
   {
     "from": "/rhn/ssm/ViewLog.do",
@@ -9282,12 +7646,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 12,
-    "maxDelay": [
-      12
-    ],
-    "minDelay": [
-      12
-    ]
+    "maxDelay": 12,
+    "minDelay": 12
   },
   {
     "from": "/rhn/schedule/CompletedSystems.do",
@@ -9295,12 +7655,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 322569,
-    "maxDelay": [
-      322569
-    ],
-    "minDelay": [
-      322569
-    ]
+    "maxDelay": 322569,
+    "minDelay": 322569
   },
   {
     "from": "/rhn/systems/SystemList.do",
@@ -9308,12 +7664,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 8,
-    "maxDelay": [
-      8
-    ],
-    "minDelay": [
-      8
-    ]
+    "maxDelay": 8,
+    "minDelay": 8
   },
   {
     "from": "/rhn/account/UserPreferences.do",
@@ -9321,12 +7673,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 54,
-    "maxDelay": [
-      54
-    ],
-    "minDelay": [
-      54
-    ]
+    "maxDelay": 54,
+    "minDelay": 54
   },
   {
     "from": "/rhn/systems/details/SystemChannels.do",
@@ -9334,12 +7682,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 223,
-    "maxDelay": [
-      223
-    ],
-    "minDelay": [
-      223
-    ]
+    "maxDelay": 223,
+    "minDelay": 223
   },
   {
     "from": "/rhn/systems/details/SystemChannels.do",
@@ -9347,12 +7691,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 47,
-    "maxDelay": [
-      47
-    ],
-    "minDelay": [
-      47
-    ]
+    "maxDelay": 47,
+    "minDelay": 47
   },
   {
     "from": "/rhn/systems/details/SystemChannels.do",
@@ -9360,12 +7700,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 85029,
-    "maxDelay": [
-      85029
-    ],
-    "minDelay": [
-      85029
-    ]
+    "maxDelay": 85029,
+    "minDelay": 85029
   },
   {
     "from": "/rhn/account/UserPreferences.do",
@@ -9373,12 +7709,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 39,
-    "maxDelay": [
-      39
-    ],
-    "minDelay": [
-      39
-    ]
+    "maxDelay": 39,
+    "minDelay": 39
   },
   {
     "from": "/rhn/systems/SystemGroupList.do",
@@ -9386,12 +7718,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 21,
-    "maxDelay": [
-      21
-    ],
-    "minDelay": [
-      21
-    ]
+    "maxDelay": 21,
+    "minDelay": 21
   },
   {
     "from": "/rhn/manager/notification-messages",
@@ -9399,12 +7727,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 26,
-    "maxDelay": [
-      26
-    ],
-    "minDelay": [
-      26
-    ]
+    "maxDelay": 26,
+    "minDelay": 26
   },
   {
     "from": "/rhn/groups/ListRemoveSystems.do",
@@ -9412,12 +7736,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 13,
-    "maxDelay": [
-      13
-    ],
-    "minDelay": [
-      13
-    ]
+    "maxDelay": 13,
+    "minDelay": 13
   },
   {
     "from": "/rhn/account/UserDetails.do",
@@ -9425,12 +7745,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 20,
-    "maxDelay": [
-      20
-    ],
-    "minDelay": [
-      20
-    ]
+    "maxDelay": 20,
+    "minDelay": 20
   },
   {
     "from": "/rhn/account/UserPreferences.do",
@@ -9438,12 +7754,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 18,
-    "maxDelay": [
-      18
-    ],
-    "minDelay": [
-      18
-    ]
+    "maxDelay": 18,
+    "minDelay": 18
   },
   {
     "from": "/rhn/account/UserPreferences.do",
@@ -9451,12 +7763,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 446860,
-    "maxDelay": [
-      446860
-    ],
-    "minDelay": [
-      446860
-    ]
+    "maxDelay": 446860,
+    "minDelay": 446860
   },
   {
     "from": "/rhn/channels/ChannelPackages.do",
@@ -9464,12 +7772,8 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 547,
-    "maxDelay": [
-      547
-    ],
-    "minDelay": [
-      547
-    ]
+    "maxDelay": 547,
+    "minDelay": 547
   },
   {
     "from": "/rhn/systems/details/SystemChannels.do",
@@ -9477,11 +7781,7 @@
     "count": 1,
     "reloadCount": 0,
     "averageDelay": 167984,
-    "maxDelay": [
-      167984
-    ],
-    "minDelay": [
-      167984
-    ]
+    "maxDelay": 167984,
+    "minDelay": 167984
   }
 ]
