@@ -52,6 +52,7 @@ function countLoadingPatterns(data) {
   uniqueUsers.forEach(u => {
     const history = loadingData.filter(d => d.userId == u);
 
+    let delays = [];
     // take a pair of requests and count how many times the pattern appears
     history.forEach((h, i) => {
       if (i < history.length -1) {
@@ -62,15 +63,22 @@ function countLoadingPatterns(data) {
           if (h.url == history[i+1].url && h.queryString == history[i+1].queryString) {
             pairOfRequests[patternKey].reloadCount += 1;
           }
-          pairOfRequests[patternKey].delay.push(currentDelay);
+          delays.push(currentDelay);
+          pairOfRequests[patternKey].averageDelay = Math.round(delays.reduce((a,b) => a+b) / delays.length, 0);
+          pairOfRequests[patternKey].maxDelay = Math.max.apply(Math, delays);
+          pairOfRequests[patternKey].minDelay = Math.min.apply(Math, delays);
         }
         else {
           var o = {};
           o['from'] = h.url;
           o['to'] = history[i+1].url;
           o['count'] = 1;
+          // it counts as a page reload if the URL is exactly the same including the queryString
           o['reloadCount'] = h.url == history[i+1].url && h.queryString == history[i+1].queryString ? 1 : 0;
-          o['delay'] = [currentDelay];
+          delays = [currentDelay];
+          o['averageDelay'] = currentDelay;
+          o['maxDelay'] = [currentDelay];
+          o['minDelay'] = [currentDelay];
           pairOfRequests[patternKey] = o;
         }
       }

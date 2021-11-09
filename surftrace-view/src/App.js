@@ -4,15 +4,6 @@ import './App.css';
 import urlCountData from './data/url-count.json';
 import patternCountData from './data/pattern-count.json';
 
-function rawSecondToTime(rawSeconds) {
-  const intRawSeconds = parseInt(rawSeconds);
-  const h = Math.floor(intRawSeconds / 3600);
-  const m = Math.floor((intRawSeconds - (h * 3600)) / 60);
-  const s = intRawSeconds - (h * 3600) - (m * 60);
-
-  return (h > 0 ? h + ':' : '') + (m > 0 ? m + ':' : '') + s;
-}
-
 function RoutedContent() {
   return (
     <Router>
@@ -76,9 +67,9 @@ function Patterns({ match }) {
             <th>To</th>
             <th className="center">Total Count</th>
             <th className="center">Reloads Count</th>
-            <th className="center">Average Delay (hh:mm:ss)</th>
-            <th className="center">Max Delay (hh:mm:ss)</th>
-            <th className="center">Min Delay (hh:mm:ss)</th>
+            <th className="center">Average Delay (seconds)</th>
+            <th className="center">Max Delay (seconds)</th>
+            <th className="center">Min Delay (seconds)</th>
           </tr>
         </thead>
         <tbody>
@@ -90,46 +81,17 @@ function Patterns({ match }) {
                 <td>{p.to}</td>
                 <td className="center"><strong>{p.count}</strong></td>
                 <td className="center">{p.reloadCount > 0 ? p.reloadCount : '-'}</td>
-                <td className="center">
-                  {/* <strong>{ Math.round(p.delay.reduce((a,b) => a+b) / p.delay.length, 0) }</strong> */}
-                  <strong>{rawSecondToTime(Math.round(p.delay.reduce((a,b) => a+b) / p.delay.length, 0))}</strong>
-                </td>
-                <td className="center">{rawSecondToTime(Math.max.apply(Math, p.delay))}</td>
-                <td className="center">{rawSecondToTime(Math.min.apply(Math, p.delay))}</td>
+                <td className="center"><strong>{p.averageDelay}</strong></td>
+                <td className="center">{p.maxDelay}</td>
+                <td className="center">{p.minDelay}</td>
               </tr>
             )
           }
         </tbody>
       </table>
       <div className="detail-box"></div>
-      {/* <ul>
-        <li>
-          <Link to={`${match.url}/rendering`}>Rendering with React</Link>
-        </li>
-        <li>
-          <Link to={`${match.url}/components`}>Components</Link>
-        </li>
-        <li>
-          <Link to={`${match.url}/props-v-state`}>Props v. State</Link>
-        </li>
-      </ul>
-
-      <Route path={`${match.path}/:topicId`} component={Topic} />
-      <Route
-        exact
-        path={match.path}
-        render={() => <h3>Please select a topic.</h3>}
-      /> */}
     </div>
   );
 }
-
-// function Topic({ match }) {
-//   return (
-//     <div>
-//       <h3>{match.params.topicId}</h3>
-//     </div>
-//   );
-// }
 
 export default RoutedContent;
