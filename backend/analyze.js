@@ -121,15 +121,18 @@ function LogLineObject(userId, datetime, action, url, queryString) {
 // to [{"userId": "10", "datetime": "Wed, 13 Feb 2019 20:50:25 GMT", "action": "Loading", "url": "https://srv.tf.local/rhn/users/UserDetails.do"}]
 function normalizeData(line) {
   var valuesPattern = /.*FrontendLogController - \[(\d*\w*)*\] - \[(.*)\] - (\w*) `(.*)`/g;
-  var normalizedObject = new LogLineObject(
-    line.replace(valuesPattern, '$1'),
-    line.replace(valuesPattern, '$2'),
-    line.replace(valuesPattern, '$3'),
-    line.replace(valuesPattern, '$4').split('?')[0] // drop the QueryString slice from the URL
-      .replace(/https?:\/\/[^\/]*/g, ''), // drop the name of the server
-    line.replace(valuesPattern, '$4').split('?')[1], // keep the QueryString slice only
-  );
-  return normalizedObject;
+  if (line.match(valuesPattern)) {
+    var normalizedObject = new LogLineObject(
+      line.replace(valuesPattern, '$1'),
+      line.replace(valuesPattern, '$2'),
+      line.replace(valuesPattern, '$3'),
+      line.replace(valuesPattern, '$4').split('?')[0] // drop the QueryString slice from the URL
+        .replace(/https?:\/\/[^\/]*/g, ''), // drop the name of the server
+      line.replace(valuesPattern, '$4').split('?')[1], // keep the QueryString slice only
+    );
+    return normalizedObject;
+  }
+  return null;
 }
 
 // process the log file passed through args
@@ -142,13 +145,19 @@ function processFile(inputFile) {
 
   rl.on('line', function (line) {
     if (line && line != null) {
-      data.push(normalizeData(line));
+      const normalizedLine = normalizeData(line);
+      if (normalizedLine) {
+        data.push(normalizedLine);
+      }
     }
   });
 
   rl.on('close', function (line) {
     if (line && line != null) {
-      data.push(normalizeData(line));
+      const normalizedLine = normalizeData(line);
+      if (normalizedLine) {
+        data.push(normalizedLine);
+      }
     }
     // save the normalized data
     Fs.writeFile(inputFile + '-normalized.json', JSON.stringify(data, null, 2), 'utf8', () => {});
