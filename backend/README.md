@@ -11,6 +11,7 @@ Analyze and put together navigation traces of a [Uyuni](https://github.com/uyuni
 const Fs = require('fs');
 const Readline = require('readline');
 const Stream = require('stream');
+const XmlParser = require("xml2json");
 ```
 
 ### What it does
